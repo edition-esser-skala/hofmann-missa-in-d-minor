@@ -100,3 +100,192 @@ KyrieFagottoI = {
 		a2 r4\fermata \bar "|." %99 finis
 	}
 }
+
+GloriaFagottoI = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoGloria
+		fis'2\f r
+		d r
+		e2 e4 d8 cis
+		d4 cis r d8.\fz d16
+		cis4 r r2 %5
+		R1\fermataMarkup
+		\tempoGloriaB d-\sottoVoceE
+		e
+		\tempoGloriaC d2\f r
+		d r %10
+		e e4 d8 cis
+		d4 cis d e
+		fis2 e
+		d4 r r r8 cis\p
+		d4 r r r8 fis, %15
+		g4 r r r8 h
+		c4 r r r8 e
+		f4 r r2
+		r4 d d d
+		\once \tieDashed d2~ d4 r %20
+		R1
+		\pa r4 e2 e4 \pd
+		cis1
+		h2 \pao dis
+		e d %25
+		cis\f r
+		a' r
+		R1
+		r2 \pa r8 h, c d
+		a4 r r2 %30
+		r8 d4 f16 f e8 d c h
+		a4 e cis'4. cis8
+		d4 d e e8 e
+		e4 a, gis2
+		a8 c4 d16 d c8 h a g %35
+		f4 a a \pd b8 a
+		b2\fz c
+		b d
+		a a4 d
+		d cis! r8 cis d e %40
+		d2 r
+		b r
+		R1
+		d2 e
+		d4 r r r8 cis\pE %45
+		d4 r r r8 fis,
+		g4 r r r8 h
+		cis4 r r2
+		R1
+		fis2\f r %50
+		d r
+		e e4 d8 cis
+		d4 cis d e
+		fis2 e
+		d4 r r2 %55
+		R1*4 \noBreak
+		R1\fermataMarkup \bar "||" %60
+		\key g \minor \time 3/4 \tempoQuiTollis \newSpacingSection
+			R2. \noBreak
+		r8 fis\pE fis fis fis fis
+		R2.
+		r8 g g g g g
+		g4 c,8 b a c %65
+		b4 r r
+		R2.
+		es2\fp r4
+		R2.*3 %71
+		r4 r r8 d
+		d2 es8 e
+		\pao d4. es8 d d
+		es4 r r %75
+		\pa r8 f( e f es c)
+		R2.
+		r8 g'( fis g es c) \pd
+		d2 es4
+		d r r %80
+		R2.
+		b4 b r
+		es b r
+		R2.*4 %87
+		g'4 f r
+		es d r
+		c8 c c c c c %90
+		b4 b r
+		b8 b b b b b
+		b4 a r
+		\pa R2.
+		r8 f'( e f d b) %95
+		R2.
+		r8 \once \slurDashed d( cis d b g) \pd
+		es'2\rfE r4
+		R2.
+		r8 fis\pE fis fis fis fis %100
+		g4 r r
+		r8 g g g g g
+		g r r4 r
+		R2. \noBreak
+		R\fermataMarkup \bar "||" %105
+		\key d \major \time 4/4 \tempoQuoniam \newSpacingSection
+			h,2\f r
+		g r
+		r r4 c
+		h r r f'
+		e r r d %110
+		cis! r r g
+		fis8 d'4-\parenthesize-> e8 d e d cis
+		d4 cis r r8 cis
+		d4 cis r r8 cis
+		d4 cis r d8. d16 %115
+		cis4 r r2 \noBreak
+		R1\fermataMarkup \bar "|"
+		\pa R1*2
+		r2 a %120
+		d4 d cis8 a fis' e
+		d h g'! fis e cis^\critnote h e
+		a, h16 cis d2 cis4
+		d g,8 fis e4 e'
+		r e8 d cis4 cis %125
+		h4. h8 a4 d8 e
+		fis4 r a,! d8 cis
+		d8. d16 d4 r2
+		a d4 d
+		cis8 h e d d4 cis %130
+		h2 a
+		gis4 gis8 a fis a gis e
+		gis2 a4 r
+		fis8 gis16 a h8 a gis2
+		a8 h16 cis d8 cis h4 e %135
+		e r r2
+		r4 d8 cis h4 e8 dis
+		h4 cis h h8 h
+		h2 h4 a8 gis
+		fis4 h8 cis \once \tieDashed d2~ %140
+		d4 cis h2
+		a4 d8 cis h4 a8 d
+		cis d e fis g4 r
+		g,2 c4 c
+		h8 g e' d cis a fis'! e %145
+		d4 g,8 fis e4 e'8 d
+		cis!8 d16 e f8 e dis h g'! fis
+		e4 r8 gis, a4. a8
+		h4. h8 c4 r8 e
+		c d16 e fis!8 e dis e16 fis g8 fis %150
+		e d c h ais e' d cis
+		h cis16 d e8 d cis ais d cis
+		d4 g8 fis eis4 r
+		fis,2 h4 h
+		cis8 g! fis e d4 r %155
+		a'2 d4 d
+		c8 a d c h c16 d e8 d16 d
+		cis4 h8 ais h fis h4~
+		h8 e, \once \tieDashed a4~ a8 gis e'4
+		e d8 e e2 %160
+		e4 r r2
+		\pd R1*2 \pa
+		r4 fis e2
+		d h4 \once \tieDashed e~ %165
+		e d \once \tieDashed e2~
+		e4 d cis r
+		\pd R1 \pa
+		\once \tieDashed e~
+		e4 d8 cis h4 e8 dis %170
+		e2 cis4^\critnote a
+		a2 a4 r
+		\pd R1*12 \pa %184
+		r2 r4 a~ %185
+		a gis a r8 g'
+		fis d g fis e cis fis e
+		d4 cis8 h a h16 cis d8 c?
+		h c?16 d e8 d h4 \once \tieDashed h~
+		h ais h8 fis' fis fis %190
+		fis4 g a a
+		g4. g8 fis fis g fis
+		e d cis e d2
+		a d8 fis g fis
+		e d cis a d2 %195
+		d4. h8 e4. cis8
+		fis4. e8 d4 d
+		d d r2
+		cis d
+		e1 %200
+		fis\breve*1/2\fermata \bar "|." %201 finis
+	}
+}

@@ -7,7 +7,7 @@
 
 
 \paper {
-	#(set-paper-size "a4" 'portrait)
+	#(set-paper-size "a3" 'portrait)
 	two-sided = ##t
 	top-margin = 1\cm
 	bottom-margin = .5\cm
@@ -137,6 +137,8 @@ colOrg = \markup { \remark "col’Org." }
 colOrgE = \markup { \remarkE "col’Org." }
 dolce = \markup { \remark "dolce" }
 dolceE = \markup { \remarkE "dolce" }
+sottoVoce = \markup { \remark "sotto voce" }
+sottoVoceE = \markup { \remarkE "sotto voce" }
 
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
@@ -227,6 +229,11 @@ tempoMarkup =
 %
 
 tempoKyrie = \tempoMarkup "Andante"
+tempoGloria = \tempoMarkup "Allegro"
+	tempoGloriaB = \tempoMarkup "Adagio"
+	tempoGloriaC = \tempoMarkup "Allegro"
+	tempoQuiTollis = \tempoMarkup "Largo"
+	tempoQuoniam = \tempoMarkup "Allegro"
 
 
 
@@ -403,11 +410,13 @@ tempoKyrie = \tempoMarkup "Andante"
 \include "notes/n_cl2.ly"
 \include "notes/n_fag1.ly"
 \include "notes/n_fag2.ly"
+\include "notes/n_cor1.ly"
+\include "notes/n_cor2.ly"
 \include "notes/n_tr1.ly"
 \include "notes/n_tr2.ly"
-% \include "notes/n_trb1.ly"
-% \include "notes/n_trb2.ly"
-% \include "notes/n_trb3.ly"
+\include "notes/n_trb1.ly"
+\include "notes/n_trb2.ly"
+\include "notes/n_trb3.ly"
 \include "notes/n_timp.ly"
 \include "notes/n_vl1.ly"
 \include "notes/n_vl2.ly"
