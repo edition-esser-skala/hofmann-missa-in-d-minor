@@ -22,6 +22,97 @@
 	% 				\new Staff <<
 	% 					\set Staff.soloText = \markup { \medium \remark "Cl I" }
 	% 					\set Staff.instrumentName = \markup { \center-column { "Clarinetto I, II" "in B" } }
+	% 					\partcombine \KyrieClarinettoI \KyrieClarinettoII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = "Fagotto I, II"
+	% 					\set Staff.soloText = \markup { \medium \remark "Fag I" }
+	% 					\set Staff.soloIIText = \markup { \medium \remark "Fag II" }
+	% 					\partcombine \KyrieFagottoI \KyrieFagottoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
+	% 					\partcombine \KyrieTrombaI \KyrieTrombaII
+	% 				>>
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = \markup { \center-column { "Timpani" "in D–A" } }
+	% 				\KyrieTimpani
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \violinGroupDistance } <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\KyrieViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\KyrieViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\KyrieViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \SopranoIncipit
+	% 					\override Staff.InstrumentName.self-alignment-Y = ##f
+	% 					\override Staff.InstrumentName.self-alignment-X = #RIGHT
+	% 					\new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \AltoIncipit
+	% 					\override Staff.InstrumentName.self-alignment-Y = ##f
+	% 					\override Staff.InstrumentName.self-alignment-X = #RIGHT
+	% 					\new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \KyrieAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \TenoreIncipit
+	% 					\override Staff.InstrumentName.self-alignment-Y = ##f
+	% 					\override Staff.InstrumentName.self-alignment-X = #RIGHT
+	% 					\new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Basso"
+	% 					\new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \KyrieBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Violone" "e Organo" } }
+	% 					\KyrieOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass {
+	% 				\KyrieBassFigures
+	% 			}
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 100 }
+	% 	}
+	% }
+	% \bookpart {
+	% 	\header {
+	% 		movement = \movementTitle "2" "G L O R I A"
+	% 	}
+	% 	\paper { indent = 3\cm }
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.soloText = \markup { \medium \remark "Cl I" }
+	% 					\set Staff.instrumentName = \markup { \center-column { "Clarinetto I, II" "in A" } }
 	% 					\partcombine \GloriaClarinettoI \GloriaClarinettoII
 	% 				>>
 	% 				\new Staff <<
@@ -33,8 +124,30 @@
 	% 			>>
 	% 			\new StaffGroup <<
 	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in D" } }
+	% 					\partcombine \GloriaCornoI \GloriaCornoII
+	% 				>>
+	% 				\new Staff <<
 	% 					\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
 	% 					\partcombine \GloriaTrombaI \GloriaTrombaII
+	% 				>>
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = \TromboneIIncipit
+	% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+	% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+	% 						\GloriaTromboneI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = \TromboneIIIncipit
+	% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+	% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+	% 						\GloriaTromboneII
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Trombone III"
+	% 						\GloriaTromboneIII
+	% 					}
 	% 				>>
 	% 			>>
 	% 			\new Staff {
@@ -59,25 +172,19 @@
 	% 			>>
 	% 			\new ChoirStaff <<
 	% 				\new Staff {
-	% 					\set Staff.instrumentName = \SopranoIncipit
-	% 					\override Staff.InstrumentName.self-alignment-Y = ##f
-	% 					\override Staff.InstrumentName.self-alignment-X = #RIGHT
+	% 					\set Staff.instrumentName = "Soprano"
 	% 					\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
 	% 				}
 	% 				\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
 	%
 	% 				\new Staff {
-	% 					\set Staff.instrumentName = \AltoIncipit
-	% 					\override Staff.InstrumentName.self-alignment-Y = ##f
-	% 					\override Staff.InstrumentName.self-alignment-X = #RIGHT
+	% 					\set Staff.instrumentName = "Alto"
 	% 					\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
 	% 				}
 	% 				\new Lyrics \lyricsto Alto \GloriaAltoLyrics
 	%
 	% 				\new Staff {
-	% 					\set Staff.instrumentName = \TenoreIncipit
-	% 					\override Staff.InstrumentName.self-alignment-Y = ##f
-	% 					\override Staff.InstrumentName.self-alignment-X = #RIGHT
+	% 					\set Staff.instrumentName = "Tenore"
 	% 					\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
 	% 				}
 	% 				\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
@@ -104,115 +211,112 @@
 	% }
 	\bookpart {
 		\header {
-			movement = \movementTitle "2" "G L O R I A"
+			movement = \movementTitle "3" "C R E D O"
 		}
-		\paper { indent = 3\cm }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.soloText = \markup { \medium \remark "Cl I" }
 						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I, II" "in A" } }
-						\transpose f d
-						\partcombine \GloriaClarinettoI \GloriaClarinettoII
+						\set Staff.soloText = \markup { \medium \remark "Cl I" }
+						\set Staff.soloIIText = \markup { \medium \remark "Cl II" }
+						% \transpose c a
+						\partcombine \CredoClarinettoI \CredoClarinettoII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Fagotto I, II"
 						\set Staff.soloText = \markup { \medium \remark "Fag I" }
 						\set Staff.soloIIText = \markup { \medium \remark "Fag II" }
-						\partcombine \GloriaFagottoI \GloriaFagottoII
+						\partcombine \CredoFagottoI \CredoFagottoII
 					>>
 				>>
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in D" } }
-						\transpose c d
-						\partcombine \GloriaCornoI \GloriaCornoII
+						\set Staff.soloText = \markup { \medium \remark "Cor I" }
+						\set Staff.soloIIText = \markup { \medium \remark "Cor II" }
+						% \transpose c d
+						\partcombine \CredoCornoI \CredoCornoII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
-						\transpose c d
-						\partcombine \GloriaTrombaI \GloriaTrombaII
+						\set Staff.soloText = \markup { \medium \remark "Tr I" }
+						\set Staff.soloIIText = \markup { \medium \remark "Tr II" }
+						% \transpose c d
+						\partcombine \CredoTrombaI \CredoTrombaII
 					>>
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = \TromboneIIncipit
-							\override Staff.InstrumentName.self-alignment-Y = ##f
-							\override Staff.InstrumentName.self-alignment-X = #RIGHT
-							\GloriaTromboneI
-						}
-						\new Staff {
-							\set Staff.instrumentName = \TromboneIIIncipit
-							\override Staff.InstrumentName.self-alignment-Y = ##f
-							\override Staff.InstrumentName.self-alignment-X = #RIGHT
-							\GloriaTromboneII
+							\set Staff.instrumentName = "Trombone I, II"
+							\set Staff.soloText = \markup { \medium \remark "Trb I" }
+							\set Staff.soloIIText = \markup { \medium \remark "Trb II" }
+							\partcombine \CredoTromboneI \CredoTromboneII
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Trombone III"
-							\GloriaTromboneIII
+							\CredoTromboneIII
 						}
 					>>
 				>>
-				\new Staff {
+				\new Staff \with { \timpStaffDistance } {
 					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in D–A" } }
-					\transpose c d
-					\GloriaTimpani
+					% \transpose c d
+					\CredoTimpani
 				}
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
+				\new StaffGroup \with { \stringGroupDistance } <<
+					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\GloriaViolinoI
+							\CredoViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\GloriaViolinoII
+							\CredoViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\GloriaViola
+						\CredoViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \CredoSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+					\new Lyrics \lyricsto Soprano \CredoSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
+					\new Lyrics \lyricsto Alto \CredoAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+					\new Lyrics \lyricsto Tenore \CredoTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
+					\new Lyrics \lyricsto Basso \CredoBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violone" "e Organo" } }
-						% \set Staff.midiInstrument = "contrabass"
-						\transpose c c,
-						\GloriaOrgano
+						% \transpose c c,
+						\CredoOrgano
 					}
 				>>
 				\new FiguredBass {
-					\GloriaBassFigures
+					\CredoBassFigures
 				}
 			>>
-			% \layout { }
-			\midi { \tempo 4 = 100 }
+			\layout { }
+			\midi { \tempo 4 = 130 } %130 - 60 - 120
 		}
 	}
 }

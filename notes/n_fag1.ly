@@ -289,3 +289,173 @@ GloriaFagottoI = {
 		fis\breve*1/2\fermata \bar "|." %201 finis
 	}
 }
+
+CredoFagottoI = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoCredo
+		d'1\f
+		R1*2
+		a1
+		R1*2 %6
+		f1->
+		e\fp
+		fis!
+		g %10
+		fis
+		\partcombineChords d'\f
+		d
+		d
+		d %15
+		g
+		fis!
+		e
+		\pd d2 r
+		r a\f %20
+		R1*2
+		r2 cis\fE
+		R1
+		d1-> %25
+		cis4 r \pa d2
+		cis \pd d
+		cis e
+		cis d
+		a gis %30
+		a gis
+		a8 h a gis a2
+		cis h
+		h a!
+		e' h^\critnote %35
+		\pa e8 h cis e \pd e4 fis8 d
+		cis2 d
+		cis4 r r2
+		R1*2 %40
+		r8 a, a' g f e d c
+		h2 e,
+		r4 c'' c c
+		c2 c4 r
+		r a a a %45
+		cis!2 cis4 r
+		f,2\pE g
+		a e
+		f g
+		a e %50
+		fis!\f \pao g
+		d' cis
+		fis, g
+		fis g
+		fis4 r r2 %55
+		r a\f
+		R1
+		r2 d\f
+		R1*2 %60
+		a1\mfE
+		g
+		a
+		h
+		c %65
+		d
+		f2-\parenthesize-> e4 d
+		e r r2
+		R1
+		r2 r4 f8.\f f16 \noBreak %70
+		e4 cis r2\fermata \bar "||"
+		\key d \minor \time 3/4 \tempoEtIncarnatus \newSpacingSection
+			R2.*3
+		f,4\pE g as %75
+		a g r
+		R2.
+		r4 r16 \once \slurDashed g( c h d c f e)
+		e2.\f
+		c2 d4 %80
+		e2 f4
+		e16 g,,([ c h] d c es d f es as g)
+		as4\pE r r
+		R2.
+		f'2 f4 %85
+		f8. e!16 e4 r
+		as,2.\mfE
+		b
+		c
+		as %90
+		as
+		g!4 g g
+		g2-\parenthesize-> r4
+		R2.*2 %95
+		f'4\f f r
+		d d8 f,[\turn d' b]
+		\pao g4 r r
+		R2.*2 %100
+		f2\p e8 d \noBreak
+		e2 r4\fermata \bar "||"
+		\key d \major \time 4/4 \tempoEtResurrexit \newSpacingSection
+			R1 \noBreak
+		r8 d\f fis a d a fis d
+		a4 r r2 %105
+		r8 a cis e a e cis a
+		d4 r r2
+		R1
+		\partcombineChords d'2\f d4 d
+		d d \pd r2 %110
+		e fis4 fis
+		e \pao a, r2
+		R1
+		r2 \pa d4. d8
+		cis a cis e a4 cis,8 cis %115
+		fis4 a,8 a d4 cis8 cis
+		h4 a r r8 gis
+		fis fis r e' d d r cis
+		d a d e fis4 g8 a,
+		h a gis gis a e a cis %120
+		d4 d8 d cis a cis e
+		d4. fis8 d4 h8 h
+		h4 h8 h cis4. cis8
+		a4. a8 fis'8. d16 d8 d
+		\pd cis8. cis16 cis4 r8 a4 a8 %125
+		h4 r r2
+		R1*5 %131
+		b4 a r2
+		cis4 d r2
+		f,1->
+		e4 cis' e8 cis e g! %135
+		fis4 d8 a e'4 fis
+		e r r2
+		R1*9 %146
+		c2\f r
+		c r
+		as1
+		c2 des %150
+		c4 r r2
+		R1*3
+		es,1 %155
+		b'2 c
+		b4 r r2
+		R1*12 %169
+		e,4\p f e r %170
+		e f e r \noBreak
+		e f e2\fermata \bar "||"
+		\tempoEtVitam R1 \noBreak
+		r2 r4 \pa \mvTr h'\fE^\critnote
+		e e e a,8 a %175
+		a4 e8 g! d d r g'
+		fis fis r4 d2
+		cis8 a cis e a4 cis,
+		fis a,8 a a a r4
+		a2 fis8 d fis a %180
+		e'4 a, cis a8 a
+		d4 d e2
+		e4 \pd r r2
+		R1*3 %186
+		r8 fis, a d fis2~
+		fis8 d, fis h d2~
+		\partcombineChords d8 a d fis d a' fis d \pd
+		d4 d r2 %190
+		e4 e r2
+		e\f fis4 fis8 fis
+		a,4 a \pao h cis8 cis
+		d4 a a2
+		a r %195
+		e'1
+		fis\breve*1/2\fermata \bar "|." %197 finis
+	}
+}

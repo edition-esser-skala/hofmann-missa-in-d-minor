@@ -156,3 +156,136 @@ GloriaTrombaI = {
 		e\breve*1/2\fermata \bar "|." %201 finis
 	}
 }
+
+CredoTrombaI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		c'1\f
+		R1*2
+		g1
+		R1*2 %6
+		c1->
+		g4\fpE r r2
+		g4 r r2
+		g4 r r2 %10
+		g4 r r2
+		c1~\fp
+		c~
+		c~
+		c %15
+		g~
+		g
+		g4 g8. g16 g4 g
+		e r r2
+		r g\f %20
+		R1*2
+		r2 e'\f
+		R1*11 %34
+		g,4 r c r %35
+		g r r2
+		d'2 d4 d
+		d r r2
+		R1
+		r4 d\p d d %40
+		d d r2
+		r4 d d d
+		d r r2
+		R1
+		r4 g, g g %45
+		g4. g8 g4 r
+		r c r g
+		r c r g
+		r c r g
+		r c r g %50
+		c\f c8. c16 g4 g
+		c4. c8 g4 g
+		c r r2
+		r r4 g8. g16
+		c4 r r2 %55
+		r g\f
+		R1
+		r2 c\f
+		c1-\parenthesize->
+		g4\fpE g2 g4 %60
+		g r r2
+		R1*5 %66
+		c1-\parenthesize->
+		g4\f g8. g16 g4 g
+		g r r2
+		r r4 c8. c16 \noBreak %70
+		g4 g r2\fermata \bar "||"
+		\time 3/4 \tempoEtIncarnatus \newSpacingSection
+			R2.*19 %90
+		d'4\pp d d
+		d d d
+		g,\fp g r
+		R2.
+		r4 r8 g\f g g %95
+		c4 c r
+		c c r
+		R2.*3 %100
+		g2.\pp \noBreak
+		g2 r4\fermata \bar "||"
+		\time 4/4 \tempoEtResurrexit \newSpacingSection
+			R1 \noBreak
+		e4\f e8. e16 e4 e
+		g r r2 %105
+		g4 g8. g16 g4 g
+		c r r2
+		R1
+		c4\f r c c
+		c c r2 %110
+		g4 g8. g16 c4 c8. c16
+		g4 g r2
+		R1*7 %119
+		r2 r4 r8 g %120
+		c4 c8 c g4 g8 g
+		c4 c8 c c4 c8 c
+		\pa d4 d8 d \pd g,4 g8 g
+		g4 g8 g e e16 e e8 e
+		g g16 g g8 g c4 r %125
+		r2 r4 r8 c\p
+		c4 c r r8 c
+		d4 d r r8 d
+		c4 c r r8 c
+		R1 %130
+		r4 g8.\fE g16 c4 c
+		R1
+		g4 c r2
+		\pao c,1->
+		g'4 g8. g16 g4 g %135
+		c g8 e g4 c8. c16
+		g4 r r2
+		R1*18 %155
+		r4 c8. c16 c4 c
+		c r r2
+		R1*12 %169
+		g4\p c g r %170
+		g c g r \noBreak
+		g g g2\fermata \bar "||"
+		\tempoEtVitam r4 g8.\f g16 c4 c8. c16 \noBreak
+		c4 c8. c16 c4 c8. c16
+		g8 g r g g g r g %175
+		c4 r r g
+		c r r c8. c16
+		g4 r r2
+		R1
+		r2 c4 c8. c16 %180
+		g4 g8. g16 g4 g
+		c c8. c16 c8 c16 c c8 c
+		g4 r r2
+		R1*3 %186
+		c4 r8 g16. g32 c4 r8 g16. g32
+		c4 r8 c16. c32 c4 r8 c16. c32
+		c8 c16 c c8 c c c c c
+		c4 c r2 %190
+		g4 g r2
+		g4\f g8. g16 c4 c8. c16
+		c4 c8. c16 c4 g8. g16
+		c,8 c16 c e8 c g' g16 g g8 g
+		c2 r %195
+		g1
+		c,\breve*1/2\fermata \bar "|." %197 finis
+	}
+}

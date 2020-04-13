@@ -90,3 +90,106 @@ GloriaTromboneIII = {
 		d,\breve*1/2\fermata \bar "|." %201 finis
 	}
 }
+
+CredoTromboneIII = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoCredo
+		d1\fE
+		R1*2
+		a1
+		R1*2 %6
+		gis1->
+		a4 r r2
+		R1*3 %11
+		b1\fp
+		a
+		g
+		gis %15
+		a~
+		a~
+		a
+		d,4 r r2
+		R1*7 %26
+		e'2-\mezzoVoceE gis4 h
+		a2 gis
+		a e4. d8
+		cis2 h %30
+		a r
+		R1*8 %39
+		r4 a'\pE e e %40
+		a a r2
+		r4 a e e
+		a r r2
+		R1*7 %50
+		d,2\fE e4 g
+		fis2 e4 g
+		fis fis2 cis4
+		d2 a
+		d,4 r r2 %55
+		R1*12 %67
+		r2 r4 a''\fE
+		a2 f4 d
+		a a r2 \noBreak %70
+		R1\fermataMarkup \bar "||"
+		\key d \minor \time 3/4 \tempoEtIncarnatus \newSpacingSection
+			R2.*24 %95
+		d4\f d, r
+		b' b r
+		R2.*4 \noBreak %101
+		R2.\fermataMarkup \bar "||"
+		\key d \major \time 4/4 \tempoEtResurrexit \newSpacingSection
+			R1 \noBreak
+		d2\f d4 d
+		a r r2 %105
+		a a4 a
+		d r r2
+		R1
+		h2\f h4 h
+		h h r2 %110
+		a2 d4 d
+		a a r2
+		R1*7 %119
+		r2 r4 r8 g'! %120
+		fis d fis a g4. g8
+		fis4 d h d
+		gis, e' a, a
+		cis8 a cis e d2
+		a d4 r %125
+		r2 r4 r8 f
+		e4 e r r8 d-\critnote
+		cis4 cis r r8 cis
+		h4 h r r8 c
+		h4 h r2 %130
+		a4 a' fis fis
+		g fis r2
+		e4 d r2
+		gis,1->
+		a4 r r2 %135
+		R1*36 \noBreak %171
+		R1\fermataMarkup \bar "||"
+		\tempoEtVitam a'2\fE fis8 d fis a \noBreak
+		d4 fis, h e,
+		a e cis e %175
+		d r a'2
+		a4 d, d h8 e
+		a,4 r e'2
+		d4 cis d r
+		r2 d %180
+		cis8 a cis e a4 cis,
+		fis a, h2
+		a r
+		R1*3 %186
+		d8 d, fis a \once \tieDashed d2~
+		d8 h d fis h2~
+		h8 fis, a d fis a, d fis
+		g4 g, r2 %190
+		g4 g r2
+		g'2\f fis8 d fis a
+		d4 fis, h e,
+		d fis8 d a2
+		d r %195
+		a1
+		d\breve*1/2\fermata \bar "|." %197 finis
+	}
+}

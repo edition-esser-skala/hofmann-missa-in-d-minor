@@ -156,3 +156,126 @@ GloriaTimpani = {
 		c\breve*1/2\trill\fermata \bar "|." %201 finis
 	}
 }
+
+CredoTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoCredo
+		c1\f\startTrillSpan
+		R1*2\stopTrillSpan
+		g1\startTrillSpan
+		R1*2\stopTrillSpan %6
+		c1->\startTrillSpan
+		g4\fpE\stopTrillSpan r r2
+		g4 r r2
+		g4 r r2 %10
+		g4 r r2
+		c1:32\fp
+		c4 c8. c16 c4 c
+		c1:\fp
+		c4 c8. c16 c4 c %15
+		g1:\fp
+		g4 g8. g16 g4 g
+		g g8. g16 g4 g
+		c r r2
+		r g2:\f %20
+		R1*14 %34
+		g4 r c r %35
+		g r r2
+		R1
+		g4 r r2
+		R1*6 %44
+		r4 g\p g g %45
+		g4. g8 g4 r
+		r c r g
+		r c r g
+		r c r g
+		r c r g %50
+		c\f c8. c16 g4 g
+		c4. c8 g4 g
+		c r r2
+		r r4 g8. g16
+		c4 r r2 %55
+		r g2:\f
+		R1
+		r2 c:\f
+		c1:-\parenthesize->
+		g4\fpE g8. g16 g4 g %60
+		g r r2
+		R1*5 %66
+		c1\startTrillSpan-\parenthesize->
+		g4\f\stopTrillSpan g8. g16 g4 g
+		g r r2
+		r r4 c8. c16 \noBreak %70
+		g4 g r2\fermata \bar "||"
+		\time 3/4 \tempoEtIncarnatus \newSpacingSection
+			R2.*20 %91
+		c2.\pp\startTrillSpan
+		g4\fp\stopTrillSpan g r
+		R2.
+		r4 r8 g16\f g g8 g %95
+		c4 c r
+		c c r
+		R2.*3 %100
+		g2.\pp\startTrillSpan \noBreak
+		g2\stopTrillSpan r4\fermata \bar "||"
+		\time 4/4 \tempoEtResurrexit \newSpacingSection
+			R1 \noBreak
+		c8\f c16 c c8 c c c c c
+		g4 r r2 %105
+		g8 g16 g g8 g g g g g
+		c4 r r2
+		R1
+		c4\f r c c
+		c c r2 %110
+		g8 g16 g g8 g c c c c
+		g4 g r2
+		R1*7 %119
+		r2 r4 r8 g %120
+		c4 c8 c g4 g8 g
+		c4 c8 c c4 c8 c
+		c4 c8 c g4 g8 g
+		g4 g8 g c c16 c c8 c
+		g g16 g g8 g c2\startTrillSpan %125
+		c1\p
+		c4\stopTrillSpan c r2
+		R1*3 %130
+		r4 g8.\fE g16 c4 c
+		R1
+		g4 c r2
+		c1\trill-\parenthesize->
+		g4 g8. g16 g4 g %135
+		g g8. g16 g4 c8. c16
+		g4 r r2
+		R1*18 %155
+		r4 c8. c16 c4 c
+		c r r2
+		R1*12 %169
+		g4\p c g r %170
+		g c g r \noBreak
+		g g g2:32\fermata \bar "||"
+		\tempoEtVitam r4 g8.\f g16 c4 c8. c16 \noBreak
+		c4 c8. c16 c4 c8. c16
+		g8 g r g g g r g %175
+		c4 r r g
+		c r r c8. c16
+		g4 r r2
+		R1
+		r2 c4 c8. c16 %180
+		g4 g8. g16 g4 g
+		c c8. c16 c8 c16 c c8 c
+		g4 r r2
+		R1*3 %186
+		c4 r8 g16. g32 c4 r8 g16. g32
+		c4 r8 c16. c32 c4 r8 c16. c32
+		c8 c16 c c8 c c c c c
+		c4 c r2 %190
+		g4 g r2
+		g4\f g8. g16 c4 c8. c16
+		c4 c8. c16 c4 g8. g16
+		c4 c8 c g g16 g g8 g
+		c4 r r2 %195
+		g2 g4 g8. g16
+		c\breve*1/2\trill\fermata \bar "|." %197 finis
+	}
+}

@@ -293,6 +293,198 @@ GloriaViolinoI = {
 	}
 }
 
+CredoViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCredo
+		<fis' d'>1\f
+		R1*2
+		<a, a'>1
+		R1*3 %7
+		r4 r8 g'16\mf fis g8 e cis a
+		d4^\critnote r8 fis16 e fis8 d a fis
+		e4 r8 g'16 fis g8 e cis a %10
+		fis4 r8 fis'16 e fis8 d a fis
+		d\f b es' d c b a g
+		f d d' c b a g f
+		g b, b' a g f e! d
+		h gis h' a gis f e d %15
+		cis! a cis' b a g fis! e
+		d fis h a g fis e d
+		cis e b' a g fis e a
+		d2\fz cis4. h8
+		a4 a r2 %20
+		R1
+		d2 cis4. h8
+		ais4 ais r2
+		R1
+		r8 e16 dis e8 gis h e gis h %25
+		a a,16[ gis] a8 cis h e gis h
+		a4. e8 e4 fis8 e
+		e a,16[ gis] a8 cis h e gis h
+		a4. e8 e4 fis8 e
+		e a,16[ gis] a8 cis h4 e8 gis %30
+		a4. e8 e4 e
+		e8 f e4 e2
+		r8 fis,!16 eis fis8 ais h d fis h
+		r e,,16 dis e8 gis a cis e a
+		r a,16 gis a8 cis h e gis h %35
+		a fis e d cis4 d8 fis
+		r e16 dis e8 a r d,16 cis d8 gis
+		a a,[-\dolce a' g] f e d c
+		h1
+		a4 r r2 %40
+		R1*2
+		r8 a a' g f e d c
+		b g a b c c, c' b
+		a f d' c b a g f %45
+		e cis! a' g f e d cis
+		d a'[ a' g] f e d cis
+		d4. d8 e4. e8
+		f a,[ a' g] f e d cis
+		d4. d8 e4. e8 %50
+		fis!8\f d,16[ cis] d8 fis e a cis e
+		d4. a8 <a a'>4 q
+		q8 d,16[ cis] d8 fis e a cis e
+		d4 <a a'>2 q4
+		d2 cis4. h8 %55
+		a4 a r2
+		e' d4. e8
+		fis4 fis r2
+		f,1-\parenthesize->
+		e4 r8 g'16\mf fis g8 e cis a %60
+		d4 r8 fis16 e fis8 d a fis
+		g4-\critnote r8 g'16 fis g8 e cis a
+		d4 r8 fis16 e fis8 d a fis
+		d4 r8 g'16 fis g8 d h g
+		e4 r8 e'16 dis e8 c g e %65
+		e2 d4 d'
+		d1->
+		cis!4 r r2
+		R1*2 \noBreak %70
+		R1\fermataMarkup \bar "||"
+		\key d \minor \time 3/4 \tempoEtIncarnatus \newSpacingSection
+			a4(-\mezzoVoce b d) \noBreak
+		c2 b4
+		a2 r4
+		R2. %75
+		r4 r8 c\turn b' g
+		f4-\parenthesize-> e8 d c h
+		d8. c16 c4 r
+		r16 \slurDashed h(\fE e dis fis e gis fis a gis h d,?)
+		c e,[( a gis] h a d c d a' f d) %80
+		c g[( c h] d c e d g f d h) \slurSolid
+		c4 r r
+		c\p b as
+		g8. f16 f4 r
+		R2.*2 %86
+		r16 c'(\mf f e! g f as g b as c f,)
+		f4 e!2
+		e?16-! f,([ a! g] b a c b des? c f es)
+		des4 c2 %90
+		des16-\parenthesize-! as([ des c] es des fes es ges fes b as)
+		e4 r r
+		r4 r8 a,!-\dolce g'! e!
+		d4-> cis8 b! a gis
+		gis8. a16 a4 r %95
+		r r8 a\turn\fE f' d
+		b4 r r
+		g'8 g g f e d
+		cis4 d r
+		e,8\pE e4 e e8 %100
+		f2-> e8 d \noBreak
+		e2 r4\fermata \bar "||"
+		\key d \major \time 4/4 \tempoEtResurrexit \newSpacingSection
+			R1 \noBreak
+		r8 d''16\fE e fis e d cis h a g fis e d cis h
+		a4 r r2 %105
+		r8 cis'16 d e d cis h a g fis e d cis h a
+		d4 r r2
+		R1*3 %110
+		r8 cis'16 d e cis a g fis e d cis h a g fis
+		<a a'>4 a r2
+		R1*7 %119
+		r2 r4 r8 <a a'> %120
+		q q4 q8 cis a'16 g fis e d cis
+		d8 h'16 a g fis e d fis8 g16 fis e d cis h
+		e gis h a gis fis e d cis8 fis16 e d cis h a
+		g' fis e d cis h a g fis8 <a a'>4 q8
+		q q4 q8 r d4 d8 %125
+		gis16 d gis d gis d a' d, gis d a' d, gis d a' d,
+		gis e gis e gis e gis e a e gis e a e gis e
+		fis e fis e fis e g! e fis e g e fis e fis^\critnote e
+		fis d fis d g d fis d g d fis d g d fis d
+		e d e d e d f d e d f d e d e d %130
+		cis!4. a'8 a4 fis8 d
+		cis4 d8 fis,16 fis a a fis fis d8 d
+		g'4 fis8 fis,16 fis a a fis fis d d a a
+		f'1-\parenthesize->
+		e4 r r2 %135
+		r r8 <a, e' cis' a'> r <a fis' d' a'>
+		r e'' \once \tieDashed a4~ a16 gis h a gis fis e d
+		cis4.\p e,8 h'4. gis8
+		a e e'4~ e16 dis fis e dis cis h a
+		gis4. e8 h'4. dis8 %140
+		e16 dis fis e d cis h a gis2
+		a8 cis4 e8 gis, h4 e8
+		e16 dis fis e d cis h a h2
+		h4 \once \tieDashed e~ e16 dis? fis e dis? cis h a
+		gis8 h4 e8 h e4 gis,8 %145
+		a e'16 dis fis e d cis d8 h'16 a gis? fis e d
+		c8\f c4 c8 c a, c a
+		e'' e4 e8 e g,, b g
+		f'' f4 f8 f f4 f8
+		r c \tieDashed es4~ es8 b es4~ %150
+		es8 es as4~ as16 g b as g f es des
+		ces4. es8 b4. es8
+		es ces as'4~ \tieSolid as16 g b as g f es des
+		ces4. es8 es4. es8
+		g g4 g8 g g4 g8 %155
+		b,16 g' b, g' b, g' b, g' a, g' a, g' a, fis'! a, fis'
+		g8 b,[\pE d b] g g, b g
+		r a' b c es d c c
+		b b c d cis cis d e
+		d es d c a4. d8 %160
+		g,4 r g2
+		c8 c b c d d cis d
+		es g es c d16 b' d, b' c, b' c, a'
+		b8 f4 f8\f f f4 f8
+		f2-> f8 b, d b %165
+		d2-> d8 g, b g
+		\tieDashed r g h4~ h8 g c4~
+		c8 g cis4~ cis8 a d4~
+		d8 f d4~ d8^\critnote \tieSolid cis,! e cis
+		a4 r r8 cis16\pE cis e e cis cis %170
+		a4 r r8 cis16 cis e e cis cis \noBreak
+		a4 r r2\fermata \bar "||"
+		\tempoEtVitam <a' a'>8\f q4 q8 a a'16 g fis e d cis \noBreak
+		d8 h'16 a g fis e d h8 h'16 a gis fis e d
+		cis8 e16 d cis h a gis a g' fis e d cis h a %175
+		d fis a d, cis e a cis, d fis a g fis e d cis
+		d g fis e d cis h a gis h e d cis h a gis
+		a8 fis'16 e d cis h a g'! fis e d cis h a g
+		fis d a' a g e a a fis g' fis e d cis h a
+		g8 e'16 d cis h a g fis8 fis'16 e d cis h a %180
+		g8 e'16 d cis h a g e8 cis'16 h a g fis e
+		d8 d'16 cis d e fis d gis8 gis4 gis8
+		\once \tieDashed a2~ a8 h16 a g fis e d
+		e4 a, a d8 d
+		r h \tieDashed e4~ e8 cis e4~ %185
+		e d2 cis4 \tieSolid
+		d r r8 fis,16 fis a a d d
+		fis2~ fis8 h,16 h d d fis fis
+		\once \tieDashed a2~ a8 fis16 fis d d a a
+		h4 h r2 %190
+		cis4 cis r2
+		<a a'>8\f q4 q8 a' h16 a g fis e d
+		d8 fis16 e d cis h a g8 h16 a g fis e cis
+		d8 fis4 d8 e2
+		d r %195
+		a'1
+		a\breve*1/2\fermata \bar "|." %197 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

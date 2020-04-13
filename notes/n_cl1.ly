@@ -283,3 +283,173 @@ GloriaClarinettoI = {
 		f\breve*1/2\fermata \bar "|." %201 finis
 	}
 }
+
+CredoClarinettoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoCredo
+		f'1\f
+		R1*2
+		e1
+		R1*2 %6
+		f1->
+		e4\fp g2.
+		f1
+		e %10
+		f
+		as\f
+		as
+		g
+		g %15
+		e
+		f
+		f2 e
+		f4 r r2
+		r c'\f %20
+		R1*2
+		r2 a\f
+		R1
+		f-\parenthesize-> %25
+		e4 r g2
+		g g
+		\pao c, f
+		e g
+		g \pao g, %30
+		g'1
+		g8 as g4 g2
+		a f
+		g e
+		e g %35
+		g8 a g f e4 \pa f8 d \pd
+		c2 \pao h
+		c4 r r2
+		R1
+		r4 g' g h, %40
+		c2 r
+		r8 g g' f es? d c h
+		c4 es? es es
+		es?2 es4 r
+		r c c c %45
+		c2 c4 r
+		c2\p \pao e,!
+		c' \pao g
+		c1~
+		c %50
+		f2\f e
+		f4 c2 c4
+		c1
+		c2 e4 g
+		f r r2 %55
+		r c'\f
+		R1
+		r2 f,\fE
+		R1*2 %60
+		f1\mfE
+		e
+		f~
+		f
+		g %65
+		g2 f
+		f1-\parenthesize->
+		e!4 r r2
+		R1
+		r2 r4 as8.\f as16 \noBreak %70
+		g4 c, r2\fermata \bar "||"
+		\key d \minor \time 3/4 \tempoEtIncarnatus \newSpacingSection
+			R2.*3 %74
+		\mvTr g2\pE^\markup { \remark "Cl I in C" } f4 %75
+		f e r
+		R2.
+		r4 r16 g( c h d c f e)
+		e2.\f
+		e2 f4 %80
+		e2 d4
+		c^\critnote r r
+		R2.*2
+		des4\pE b h %85
+		h8. c16 c4 r
+		f2.\mfE
+		\pa f4 e!2~
+		e4 es2
+		des4 c2 %90
+		des8. es16 des4 fes(
+		e) e e
+		d!-\parenthesize-> cis \pd r
+		R2.*2 %95
+		d4\f d r
+		d4 d8 \pa f,[\turn d' b]
+		g4 \pd r r
+		R2.*3 \noBreak %101
+		R2.\fermataMarkup \bar "||"
+		\key f \major \time 4/4 \tempoEtResurrexit \newSpacingSection
+			R1 \noBreak
+		\pao \mvTr f'2\f^\markup { \remark "Cl I in A" } f4 f
+		e r r2 %105
+		g2 g4 g
+		a r r2
+		R1
+		f2\f f4 f
+		f d r2 %110
+		c'2 c4 c
+		c \pao e, r2
+		R1*4 %116
+		r2 \pa f4. f8
+		e c e g c4 e,8 e
+		a4 c,8 c f4 e8 e
+		d2 c4 r8 c %120
+		c4. c8 c4 c
+		a8 f a c f4 a,4
+		d g, g8 c e g
+		b!2 a
+		g \pd r %125
+		f1\p
+		g~
+		g
+		\once \tieDashed f~
+		f %130
+		e!2\f f
+		e4 f r2
+		b4 a r2
+		as,1->
+		g4 r \pao c2 %135
+		f8 c f a g4 a
+		g r r2
+		R1*9 %146
+		es2\f r
+		g r
+		as as
+		\once \tieDashed ges1~^\critnote %150
+		ges4 r r2
+		R1*3
+		des1 %155
+		des2 es
+		des4 r r2
+		R1*12 %169
+		g,4\p as g r %170
+		g as g r \noBreak
+		R1\fermataMarkup \bar "||"
+		\tempoEtVitam \pa R1 \noBreak
+		r2 f'\fE
+		e8 c e g c4 e, %175
+		a c,8 c f4 r8 e
+		c4. c8 h4 d
+		g2 g4 c,
+		c g8 b! a f a c
+		g'4 c, f a, %180
+		g e' g c,8 c
+		c4 c f2
+		e4 \pd r r2
+		R1*3 %186
+		f2~ f8 a, c f
+		\pa \once \tieDashed a2~ a8 d, f a
+		\once \tieDashed c2~ c8 a f c \pd
+		d4 d r2 %190
+		e4 e r2
+		e\f f4 f8 c
+		c2 b
+		a g
+		\pao f r %195
+		c'1
+		c\breve*1/2\fermata \bar "|." %197 finis
+	}
+}

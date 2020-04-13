@@ -102,3 +102,155 @@ GloriaCornoI = {
 		c\breve*1/2\fermata \bar "|." %201 finis
 	}
 }
+
+CredoCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		e'1\f
+		R1*2
+		d1
+		R1*2 %6
+		c1->
+		g~\fp
+		g~
+		g~ %10
+		g
+		c~\fp
+		c~
+		c~
+		c %15
+		g~
+		g
+		d'
+		c4 r r2
+		r d\f %20
+		R1*2
+		r2 e\f
+		R1
+		d-> %25
+		R1*9 %34
+		d2 d %35
+		d4 r r2
+		d1
+		d4 r r2
+		R1*8 %46
+		g,1~\p
+		g~
+		g~
+		g %50
+		c2\f g
+		c g
+		c d
+		e d
+		c4 r r2 %55
+		r d\f
+		R1
+		r2 e\f
+		R1*2 %60
+		g,1~\p
+		g~
+		g
+		c
+		\pao d %65
+		c
+		c-\parenthesize->
+		g4 r r2
+		R1
+		r2 r4 c8.\f c16 \noBreak %70
+		g4 g r2\fermata \bar "||"
+		\time 3/4 \tempoEtIncarnatus \newSpacingSection
+			R2.*3
+		\mvTr c2\pE^\markup { \remark "Cor I in F" } r4 %75
+		g g r
+		R2.*3
+		e'2.\fE %80
+		d4 d2
+		g,4 r r
+		R2.*2
+		c4\p c c %85
+		g g r
+		c2.\mfE
+		g
+		c
+		c4^\critnote r r %90
+		R2.*2
+		e2-\parenthesize-> r4
+		R2.
+		r4 r8 e\f e e %95
+		e4 e r
+		c c r
+		R2.*3 %100
+		e,2.\p \noBreak
+		e2 r4\fermata \bar "||"
+		\time 4/4 \tempoEtResurrexit \newSpacingSection
+			R1 \noBreak
+		\pao \mvTr c'2\f^\markup { \remark "Cor I in D" } c4 c
+		g r r2 %105
+		d' d4 d
+		\pao c r r2
+		R1
+		e2\f e4 e
+		e e r2 %110
+		d e4 e
+		d g, r2
+		g e8 c e g
+		c4 \pa r c4. c8 \pd
+		d4. d8 g,2 %115
+		c4 r r2
+		R1*3
+		r2 r4 r8 d %120
+		c4 c8 c d2
+		e1
+		d
+		d2 e
+		d c %125
+		c1\p
+		\once \tieDashed d~^\critnote
+		d
+		c
+		R %130
+		d2\fE e
+		\pa d4 c \pd r2
+		d4 e r2
+		c1-\parenthesize->
+		g2 d'4 d %135
+		e c8 g d'4 e
+		d r r2
+		R1*9 %146
+		g,2\f r
+		f' r
+		R1*7 %155
+		c1~
+		c4 r r2
+		R1*12 %169
+		g4\p g g r %170
+		g g g r \noBreak
+		g g g2\fermata \bar "||"
+		\tempoEtVitam g\f e8 c e g \noBreak
+		c4 e, c' d8 d
+		g,4 r r2 %175
+		R1
+		r2 d'
+		g, g
+		g4 g g r
+		r2 c %180
+		g r
+		r c
+		g1~\p
+		g~
+		g %185
+		R
+		c8\f e, g c \once \tieDashed e2~
+		e8 e, a c \once \tieDashed e2~
+		e8 c e g e c g g
+		c4 c r2 %190
+		\pa g4 g \pd r2
+		d'\f e
+		e c4 g
+		c, e8 c g'2
+		c r %195
+		d1
+		c\breve*1/2\fermata \bar "|." %197 finis
+	}
+}

@@ -7,7 +7,7 @@
 
 
 \paper {
-	#(set-paper-size "a3" 'portrait)
+	#(set-paper-size "a4" 'portrait)
 	two-sided = ##t
 	top-margin = 1\cm
 	bottom-margin = .5\cm
@@ -139,6 +139,8 @@ dolce = \markup { \remark "dolce" }
 dolceE = \markup { \remarkE "dolce" }
 sottoVoce = \markup { \remark "sotto voce" }
 sottoVoceE = \markup { \remarkE "sotto voce" }
+mezzoVoce = \markup { \remark "mezzo voce" }
+mezzoVoceE = \markup { \remarkE "mezzo voce" }
 
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
@@ -200,6 +202,25 @@ violinGroupDistance = {
        (padding . -100)
 			 (stretchability . 0)) }
 
+stringGroupDistance = {
+ 	\override StaffGrouper.staffgroup-staff-spacing =
+ 		#'((basic-distance . 15)
+ 			 (minimum-distance . 15)
+ 			 (padding . -100)
+ 			 (stretchability . 0))
+ 	\override StaffGrouper.staff-staff-spacing =
+ 		#'((basic-distance . 12)
+        (minimum-distance . 12)
+        (padding . -100)
+ 			 (stretchability . 0)) }
+
+timpStaffDistance = {
+ 	\override VerticalAxisGroup.staff-staff-spacing =
+ 		#'((basic-distance . 12)
+ 			 (minimum-distance . 12)
+ 			 (padding . -100)
+ 			 (stretchability . 0))
+}
 
 twofourtime = {
 	\overrideTimeSignatureSettings
@@ -234,6 +255,10 @@ tempoGloria = \tempoMarkup "Allegro"
 	tempoGloriaC = \tempoMarkup "Allegro"
 	tempoQuiTollis = \tempoMarkup "Largo"
 	tempoQuoniam = \tempoMarkup "Allegro"
+tempoCredo = \tempoMarkup "Allegro"
+	tempoEtIncarnatus = \tempoMarkup "Adagio"
+	tempoEtResurrexit = \tempoMarkup "Allegro"
+	tempoEtVitam = \tempoMarkup "Più stretto"
 
 
 
@@ -331,8 +356,8 @@ tempoGloria = \tempoMarkup "Allegro"
 		\override SystemStartBracket.collapse-height = #1
 		\override InstrumentName.font-shape = #'italic
 		\override StaffGrouper.staffgroup-staff-spacing =
-		  #'((basic-distance . 15)
-         (minimum-distance . 15)
+		  #'((basic-distance . 12)
+         (minimum-distance . 12)
          (padding . -100)
          (stretchability . 0))
 		\override StaffGrouper.staff-staff-spacing =
@@ -363,8 +388,8 @@ tempoGloria = \tempoMarkup "Allegro"
 		\GrandStaff
 		\override InstrumentName.font-shape = #'italic
 		\override StaffGrouper.staffgroup-staff-spacing =
-		  #'((basic-distance . 15)
-         (minimum-distance . 15)
+		  #'((basic-distance . 12)
+         (minimum-distance . 12)
          (padding . -100)
          (stretchability . 0))
 		\override StaffGrouper.staff-staff-spacing =

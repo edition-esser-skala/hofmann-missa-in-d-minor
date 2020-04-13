@@ -242,3 +242,173 @@ GloriaClarinettoII = {
 		c\breve*1/2\fermata \bar "|." %201 finis
 	}
 }
+
+CredoClarinettoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoCredo
+		a'1\f
+		R1*2
+		g1
+		R1*2 %6
+		as1->
+		g4\fp b2.
+		a1
+		g %10
+		a
+		f'\f
+		f
+		des
+		d %15
+		c
+		c
+		c~
+		c4 r r2
+		r e\f %20
+		R1*2
+		r2 cis\f
+		R1
+		d1-> %25
+		c4 r h2
+		c g
+		c d
+		c h
+		c g %30
+		g1
+		c8[ h c d] e2
+		cis d
+		h c
+		c h %35
+		c8 h c h c4 a8 d
+		g,2 h
+		g4 r r2
+		R1*3 %41
+		r8 g g' f es? d c h
+		c4-\critnote g g g
+		g2 g4 r
+		r as as as %45
+		g2 g4 r
+		f2\p e
+		f g
+		as e!
+		f g %50
+		c1\f
+		c2 g
+		a g
+		a c
+		c4 r r2 %55
+		r e\f
+		R1
+		r2 a,\fE
+		R1*2 %60
+		a1\mfE
+		g
+		a
+		b
+		b~ %65
+		b
+		h-\parenthesize->
+		c4 r r2
+		R1
+		r2 r4 f8.\f f16 \noBreak %70
+		e4 g, r2\fermata \bar "||"
+		\key d \minor \time 3/4 \tempoEtIncarnatus \newSpacingSection
+			R2.*3 %74
+		\once \override DynamicText.X-offset = #1
+		\once \override TextScript.X-offset = #3
+			d2.\pE_\markup { \remark "Cl II in C" } %75
+		c2 r4
+		R2.*2
+		gis'2.\f
+		a %80
+		g!
+		e4_\critnote r r
+		R2.*2
+		b'4\pE f as %85
+		as8. g16 g4 r
+		as2.\mfE
+		g
+		f
+		ges %90
+		fes
+		g!4 g g
+		g2-> r4
+		R2.*2 %95
+		a4\f a r
+		b b r
+		g r r
+		R2.*3 \noBreak %101
+		R2.\fermataMarkup \bar "||"
+		\key f \major \time 4/4 \tempoEtResurrexit \newSpacingSection
+			R1 \noBreak
+		\mvTr a2\f_\markup { \remark "Cl II in A" } a4 a
+		g r r2 %105
+		c c4 c
+		f r r2
+		R1
+		a,2 a4 a
+		a a r2 %110
+		e' f4 f
+		e e r2
+		R1*3 %115
+		c4. c8 a f a c
+		f4 a,8 a d4 g,8 g
+		c4. b!8 a4 g
+		f r8 e c4 r8 c'
+		h a g g g4 g %120
+		f r8 f g2
+		f a4 f
+		f2 e8 g c4
+		c1
+		c2 r %125
+		f,1\p
+		g~
+		g
+		f~
+		f %130
+		c'2\f f,
+		g4 f r2
+		c'4 c r2
+		f,1->
+		e4 r c'2 %135
+		a8 f a c e4 f
+		e r r2
+		R1*9 %146
+		g,2\f r
+		des' r
+		ces ces
+		ces b %150
+		ces4 r r2
+		R1*3
+		b1 %155
+		b2 c
+		b4 r r2
+		R1*12 %169
+		e,4\p f e r %170
+		e f e r \noBreak
+		R1\fermataMarkup \bar "||"
+		\tempoEtVitam r4 f\f c' c \noBreak
+		c f, f d8 g
+		c,4 r8 h' g4 r %175
+		c2 a8 f a c
+		f4 a, d g,
+		c g e b'!
+		a r f2
+		e8 c e g c4 f, %180
+		b! g e g8 g
+		f4 f h2
+		c4 r r2
+		R1*3 %186
+		a2~ a8 f a c
+		\once \tieDashed f2~ f8 d a f
+		\once \tieDashed a2~ a8 f'-\critnote c a
+		f4 f r2 %190
+		c'4 c r2
+		c2\f c4 f,
+		a f c2
+		f f4 e
+		f2 r %195
+		b1
+		a\breve*1/2\fermata \bar "|." %197 finis
+	}
+}

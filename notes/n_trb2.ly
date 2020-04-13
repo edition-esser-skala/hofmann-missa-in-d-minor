@@ -102,3 +102,107 @@ GloriaTromboneII = {
 		d\breve*1/2\fermata \bar "|." %201 finis
 	}
 }
+
+CredoTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \tempoCredo
+		d1\f
+		R1*2
+		cis1
+		R1*2 %6
+		d1->
+		cis4 r r2
+		R1*3 %11
+		d1~\fp
+		d
+		b
+		h %15
+		a~
+		a~
+		a
+		a4 r r2
+		R1*6 %25
+		a2-\mezzoVoce h4 d
+		cis2 d
+		e e
+		a, gis
+		a d %30
+		cis gis
+		a4 r r2
+		R1*7 %39
+		r4 a\pE gis gis %40
+		a a r2
+		r4 a gis gis
+		a r r2
+		R1*8 %51
+		a2\fE cis4 e
+		d a2 a4
+		a2 cis
+		d4 r r2 %55
+		R1*12 %67
+		r2 r4 a\fE
+		a2 a4 a
+		a a r2 \noBreak %70
+		R1\fermataMarkup \bar "||"
+		\key d \minor \time 3/4 \tempoEtIncarnatus \newSpacingSection
+			R2.*24 %95
+		f4\f f r
+		f f r
+		R2.*4 \noBreak %101
+		R2.\fermataMarkup \bar "||"
+		\key d \major \time 4/4 \tempoEtResurrexit \newSpacingSection
+			R1 \noBreak
+		d'2\f d4 d
+		cis r r2 %105
+		cis cis4 cis
+		d r r2
+		R1
+		d2\f d4 d
+		d d r2 %110
+		cis d4 d
+		cis a r2
+		R1*7 %119
+		r2 r4 r8 cis %120
+		d2 cis
+		d d4 h
+		h2 a
+		a d
+		cis d4 r %125
+		r2 r4 r8 a
+		h4 h r r8 h
+		ais4 ais r r8 ais
+		h4 h r r8 a
+		gis4 gis r2 %130
+		a2 a4 a
+		b a r2
+		cis4 d r2
+		d,1->
+		cis4 r r2 %135
+		R1*36 \noBreak %171
+		R1\fermataMarkup \bar "||"
+		\tempoEtVitam cis'2\f d4. cis8 \noBreak
+		d1
+		cis4. d8 a4 a %175
+		a e8 g! fis4 r
+		r d' d2
+		cis8 a cis e a,4 a
+		d e d r
+		a2 fis8 d fis a %180
+		e'4 cis cis a
+		d2 e
+		cis r
+		R1*3 %186
+		r8 fis, a d \once \tieDashed a2~
+		a8 d, fis h \once \tieDashed d2~
+		d8 a d fis d fis d a
+		h4 h r2 %190
+		a4 a r2
+		e'\f fis4 d
+		a a h a
+		a a a2
+		a r %195
+		cis1
+		d\breve*1/2\fermata \bar "|." %197 finis
+	}
+}

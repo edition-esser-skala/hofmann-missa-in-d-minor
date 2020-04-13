@@ -287,3 +287,172 @@ GloriaFagottoII = {
 		d\breve*1/2\fermata \bar "|." %201 finis
 	}
 }
+
+CredoFagottoII = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoCredo
+		d1\f
+		R1*2
+		a1
+		R1*2 %6
+		d1->
+		cis\fp
+		d
+		e %10
+		d
+		b\f
+		a
+		a
+		gis %15
+		a
+		a
+		a
+		d2 r
+		r a\f %20
+		R1*2
+		r2 ais'\fE
+		R1
+		h-> %25
+		a4 r d2
+		cis h
+		a gis
+		a h
+		cis, h %30
+		a d
+		cis8 d cis h a2
+		fis h
+		e, a
+		a d %35
+		cis8 d cis h a4 d
+		a'2 h
+		a4 r r2
+		R1*2 %40
+		r8 a, a' g f e d c
+		h2 e,
+		r4 a' a a
+		g2 g4 r
+		r f f f %45
+		e2 e4 r
+		d2\pE e
+		f? cis!
+		d-\critnote e
+		f cis %50
+		d\f g
+		fis! e
+		d e
+		d e
+		d4 r r2 %55
+		r a\f
+		R1
+		r2 d\f
+		R1*2 %60
+		fis1\mfE
+		e
+		fis
+		g
+		g %65
+		g
+		d'-\parenthesize->
+		cis4 r r2
+		R1
+		r2 r4 d8.\f d16 \noBreak
+		cis4 a r2\fermata \bar "||"
+		\key d \minor \time 3/4 \tempoEtIncarnatus \newSpacingSection
+			R2.*3
+		b,2\pE h4 %75
+		c2 r4
+		R2.*2
+		h'?2.\f
+		a %80
+		c2 h?4
+		c16 \once \slurDashed g,([ c h] d c es d f es as g)
+		as4\pE r r
+		R2.
+		b,4 des2 %85
+		c4 c r
+		f2.\mfE
+		g
+		f
+		f4 es2 %90
+		des2.
+		e!4 e e
+		e2-> r4
+		R2.*2 %95
+		d'4\f d r
+		b b r
+		g r r
+		R2.*2 %100
+		d2\p cis8 h \noBreak
+		cis2 r4\fermata \bar "||"
+		\key d \major \time 4/4 \tempoEtResurrexit \newSpacingSection
+			R1 \noBreak
+		r8 d\f fis a d a fis d
+		a4 r r2 %105
+		r8 a cis e a e cis a
+		d4 r r2
+		R1
+		h2\f h4 h
+		h h r2 %110
+		cis' d4 d
+		cis a r2
+		a fis8 d fis a
+		d4 fis,8 fis h4 e,8 e
+		a4. g!8 fis4 e %115
+		d r8 cis h h r a'
+		gis gis r4 r2
+		r a
+		fis8 d fis a fis4 e
+		d2 cis4 r8 g' %120
+		fis d fis a g4. g8
+		fis4 d8 d h4 d8 d
+		gis,4 e'8 e a,4. a8
+		cis a cis e d8. d'16 d8 d
+		a8. a16 a4 r8 f4 f8 %125
+		e4 r r2
+		R1*5 %131
+		g4 fis r2
+		e4 d r2
+		d1-\parenthesize->
+		cis4 a' cis8 a cis e %135
+		d4 a8 fis cis'4 d
+		cis r r2
+		R1*9 %146
+		a2\f r
+		g! r
+		f?1
+		as2 b? %150
+		as4 r r2
+		R1*3
+		cis,!1 %155
+		g'2 a
+		g4 r r2
+		R1*12 %169
+		cis,4\p d cis r %170
+		cis d cis r \noBreak
+		cis d cis2\fermata \bar "||"
+		\tempoEtVitam a'\f fis!8 d fis a \noBreak
+		d4 fis, h e,8 e
+		a4. e8 cis4 r8 e %175
+		d r d4 a' a
+		a d,8 d d4 h8 e
+		a,4 r e'2
+		d4 cis d r
+		r2 d %180
+		cis8 a cis e a4 cis,
+		fis a,8 a h2
+		a4 r r2
+		R1*3 %186
+		r8 d fis a \once \tieDashed d2~
+		d8 h, d fis \once \tieDashed h2~
+		h8 fis, a d fis a, d fis
+		g4 g r2 %190
+		g4 g r2
+		g\f fis8 d fis a
+		d4 fis, h e,8 e
+		d4 fis8 d a2
+		d r %195
+		cis'1
+		d\breve*1/2\fermata \bar "|." %197 finis
+	}
+}
