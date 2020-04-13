@@ -92,8 +92,10 @@ KyrieAltoNotes = {
 		a4 r cis, %80
 		d2.
 		cis2 r4
-		R2.*3 %85
-		\mvTr f8.\fE^\tuttiE f16 d4 r8 a'
+		\tiny \mvTr f4\pE^\soloE f f
+		g e a
+		d,2( f8[ e)] \normalsize %85
+		\mvTr <d f>8.\fE^\tuttiE f16 d4 r8 a'
 		a4 a r8 a
 		e4 d r
 		r r8 a'\pE g f
@@ -184,8 +186,10 @@ KyrieAltoLyrics = \lyricmode {
 	son, e -- %80
 	lei --
 	son.
-
-	Ky -- ri -- e e -- %86
+	Chri -- ste e --
+	lei -- son, e --
+	lei -- %85
+	son._Ky -- ri -- e e --
 	lei -- son, e --
 	lei -- son.
 	Chri -- ste e --

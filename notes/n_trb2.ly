@@ -34,7 +34,7 @@ GloriaTromboneII = {
 		d2 d4 cis
 		d r r2
 		R1*11 %25
-		cis2\fE r
+		cis2\f r
 		d r
 		h h4 a8 gis
 		a4 gis r2
@@ -73,11 +73,11 @@ GloriaTromboneII = {
 		d r r2
 		d4 cis r r8 cis
 		d4 cis r r8 cis
-		d4 cis r fis8. fis16 %115
-		e4 r r2 \noBreak
+		d4 cis r d8. d16 %115
+		cis4 r r2 \noBreak
 		R1\fermataMarkup \bar "|"
 		R1*46 %163
-		\once \tieDashed a,1~
+		\once \tieDashed a1~
 		a4 g8 fis e4 e %165
 		e d' \once \tieDashed e2~
 		e4 d cis r

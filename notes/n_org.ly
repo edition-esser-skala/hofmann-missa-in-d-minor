@@ -54,9 +54,9 @@ KyrieOrgano = {
 		f4 f'2 %45
 		d4 h e
 		a,2 c8 h
-		a4 r r
-		R2.
-		r4 r8 h' a gis %50
+		a4 \clef "treble_8" cis'8^\vlcE-\critnote b! a g!
+		f4 d2
+		e4. \clef bass h'8^\bassiE a gis %50
 		a c16 h a8 g f e
 		d4 d2
 		g,2.
@@ -156,9 +156,9 @@ KyrieBassFigures = \figuremode {
 	<6>4 <\t>8 <7 5> <6! 4> <5 3> %45
 	<6! 4+ 2>4 <6\\> <6 4>8 <5! _+>
 	r2 <6>8 <6\\>
-	<_+>2.
-	r
-	r4. <6\\ 5>8 <8 _!> <6 5> %50
+	<_+>4 <6>8 <6!> <_+> <4+ 2>
+	<6>2 <10 8>8 <9 7!>
+	<7 5! _+> <6 4> <5! _+> <6\\ 5> <8 _!> <6 5> %50
 	r2 <6>8 <6\\>
 	<8 5 _+>4 \bassFigureExtendersOn <8 5 _+>8 <9- 7 _+> <8 6 _+> <7 5 _+> \bassFigureExtendersOff
 	<8 5 _!>4 \bassFigureExtendersOn q8 <9- 7! _!> <8 6! _!> <7 5 _!> \bassFigureExtendersOff

@@ -32,7 +32,7 @@ GloriaTromboneI = {
 		R1
 		fis4 e fis g
 		fis2 e
-		d4 r r2
+		\pao d4 r r2
 		R1*11 %25
 		e2\f r
 		fis r
@@ -49,7 +49,7 @@ GloriaTromboneI = {
 		d2\fE r %50
 		d r
 		R1
-		fis4 e d g
+		fis4 e \pao d g
 		fis2 e
 		fis4 r r2 %55
 		R1*4 \noBreak
@@ -64,7 +64,7 @@ GloriaTromboneI = {
 		R2.*6 \noBreak %104
 		R2.\fermataMarkup \bar "||" %105
 		\key d \major \time 4/4 \tempoQuoniam
-			d2\fE^\critnote r \noBreak
+			d2\f^\critnote r \noBreak
 		e r
 		r r4 c
 		h r r d
@@ -73,24 +73,24 @@ GloriaTromboneI = {
 		fis r r2
 		fis4 e r r8 e
 		fis4 e r r8 e
-		fis4 e r d8. d16 %115
-		cis4 r r2 \noBreak
+		fis4 e r fis8. fis16 %115
+		e4 r r2 \noBreak
 		R1\fermataMarkup \bar "|"
 		R1*46 %163
-		r4 fis e2
+		\pa r4 fis e2
 		d h4 e %165
 		a2 gis4 e
-		e2 e4 r
+		e2 e4 \pd r
 		R1
-		r4 cis h2
+		\pa r4 cis' h2
 		a fis4. h8 %170
 		h2 a
 		d,4 cis d d
-		cis r r2
+		cis \pd r r2
 		R1*11 %184
 		fis2 e %185
 		d e4 r
-		d2 r4 a'~
+		d2 \pao r4 a'~
 		a gis a r
 		R1*4 %192
 		r2 d,4 d
@@ -99,7 +99,7 @@ GloriaTromboneI = {
 		R1*3
 		e2 fis
 		e1 %200
-		d\breve*1/2\fermata \bar "|." %201 finis
+		\pao d\breve*1/2\fermata \bar "|." %201 finis
 	}
 }
 
