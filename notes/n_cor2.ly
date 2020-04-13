@@ -250,3 +250,31 @@ CredoCornoII = {
 		e\breve*1/2\fermata \bar "|." %197 finis
 	}
 }
+
+SanctusCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		c'4.\f c8 c, c r4
+		g'4. g8 c c r4
+		R1
+		g4\mfE c g c,
+		d' d g, r %5
+		\once \tieDashed g,1~\pp
+		g
+		g4\f g8 g c16. c32 g8 c c \noBreak
+		c'2 g \bar "||"
+		\time 3/4 \tempoOsanna \newSpacingSection e4 r r \noBreak %10
+		R2.*23 %33
+		c2.\f
+		g' %35
+		c,
+		c
+		g2 g'4
+		c, c2
+		c4 c c %40
+		g' g c
+		c2 g4
+		e2 r4\fermata \bar "|." %43 finis
+	}
+}

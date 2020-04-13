@@ -412,3 +412,52 @@ CredoClarinettoII = {
 		a\breve*1/2\fermata \bar "|." %197 finis
 	}
 }
+
+SanctusClarinettoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoSanctus
+		c'4\f d b8 b r4
+		e4. e8 c c r4
+		R1
+		c4\mfE h c a
+		g g g r %5
+		R1
+		c4 b8 as? as c4 b8
+		e4\fE f8 g f c4 d8 \noBreak
+		c1 \bar "||"
+		\time 3/4 \tempoOsanna \newSpacingSection f,4 g a \noBreak %10
+		b2 b4-\critnote
+		a d c
+		b8 a g a g f
+		e4 r g
+		g2 d'4 %15
+		c2 cis4
+		d8 c h c h g
+		f4 r f
+		g c8 b! a g
+		a4 f a %20
+		d8 c b c b a
+		g2.
+		f4 r r
+		R2.*2 %25
+		c4 d e
+		f f2
+		e4 c' b!
+		a8 g f d' c h
+		c4 r r %30
+		f,2.
+		e4 c g'
+		e c'8 b! a g
+		f4\fE a2
+		g2. %35
+		f'2 f4
+		f c e8 f
+		e d c b a g
+		a b c b c d
+		c4 d2 %40
+		e f4
+		f2 e4
+		f2 r4\fermata \bar "|." %43 finis
+	}
+}

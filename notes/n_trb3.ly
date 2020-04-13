@@ -193,3 +193,27 @@ CredoTromboneIII = {
 		d\breve*1/2\fermata \bar "|." %197 finis
 	}
 }
+
+SanctusTromboneIII = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoSanctus
+		d4\f h g8 g r4
+		a a d8 d r4
+		R1*5 %7
+		a4\f h8 cis d e fis! g \noBreak
+		a4 a a, a \bar "||"
+		\time 3/4 \tempoOsanna \newSpacingSection d4 r r \noBreak %10
+		R2.*23 %33
+		d4\f e fis
+		g e a %35
+		fis h a
+		g8 fis e fis e d
+		a2.
+		d,8 e fis e fis g
+		fis4 g gis %40
+		a cis d
+		a2 a4
+		d,2 r4\fermata \bar "|." %43 finis
+	}
+}

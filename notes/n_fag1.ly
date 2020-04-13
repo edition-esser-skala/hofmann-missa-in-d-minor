@@ -459,3 +459,43 @@ CredoFagottoI = {
 		fis\breve*1/2\fermata \bar "|." %197 finis
 	}
 }
+
+SanctusFagottoI = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoSanctus
+		fis'4.\f fis8 e e r4
+		e4. e8 d d r4
+		R1
+		e4\mfE e e d
+		cis d cis r %5
+		\pa f e8 d cis!2
+		a4 a8 r f'4. e8
+		\pd cis4\f d8 e \pa d e d d \pd \noBreak
+		fis!2 g \bar "||"
+		\time 3/4 \tempoOsanna fis4 r r \noBreak %10
+		R2.*11 %21
+		\pa a,4 h cis
+		d d2
+		cis4 fis e
+		d8 cis h cis h a %25
+		gis?4 e'2
+		d4 gis, h
+		a h cis
+		d h e
+		a,8 e' d cis h a %30
+		a4 h8 a gis e
+		a g'! fis e d cis
+		e4 d8 e fis g
+		\once \override DynamicText.X-offset = #2 fis2.\fE
+		e2 e4 %35
+		d2 d4
+		d cis8 d e fis
+		g fis e d cis a
+		d4 d2
+		d d4 %40
+		cis e d
+		d2 cis4
+		d2 \pd r4\fermata \bar "|." %43 finis
+	}
+}

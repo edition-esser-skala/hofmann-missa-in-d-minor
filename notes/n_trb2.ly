@@ -206,3 +206,27 @@ CredoTromboneII = {
 		d\breve*1/2\fermata \bar "|." %197 finis
 	}
 }
+
+SanctusTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \tempoSanctus
+		d4\f d h8 h r4
+		cis cis d8 d r4
+		R1*5 %7
+		a4\f a8 a a a a h \noBreak
+		a1 \bar "||"
+		\time 3/4 \tempoOsanna \newSpacingSection a4 r r \noBreak %10
+		R2.*23 %33
+		a2.\f
+		a %35
+		a4 d2
+		d4 cis8 d e fis
+		a,2.
+		fis8 g a g a h
+		d4 d2 %40
+		a4 g fis
+		e2.
+		d2 r4\fermata \bar "|." %43 finis
+	}
+}

@@ -977,6 +977,73 @@ CredoBassFigures = \figuremode {
 	r %197 finis
 }
 
+SanctusOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoSanctus
+		\mvTr d8..[\fE-\tuttiE d32 h8.. h32] g8 g r4
+		a8..[ a32 a8.. a32] d8 d r4
+		h'8..[\mfE^\vlc h32 a8.. a32] << { gis4 s } \\ { e8..[-\bassi e32 d8.. d32] } >>
+		cis8..[ cis32 h8.. h32] a8..[ a32 d8.. d32]
+		e8..[ e32 e,8.. e32] << { a'16.^\vlc a32 a16. a32 a16. a32 a16. a32 } \\ { a,4 r } >> %5
+		a'16. a32 a16. a32 a16. a32 a16. a32 b8..[^\bassi b32] a8 g
+		f cis!4 d8 a2
+		a8..\fE a32 h8 cis d16. d32 e16. e32 fis16. fis32 g16. g32 \noBreak
+		a8..[ a32 a8.. a32] a,8..[ a32 a8.. a32] \bar "||"
+		\time 3/4 \tempoOsanna \newSpacingSection
+			d4 r r \noBreak %10
+		R2.*11 %21
+		r8 e d cis h a
+		gis fis e e fis gis
+		a a d a cis fis,
+		h cis d cis d dis %25
+		e4 a,2
+		h2.
+		a4 r r
+		R2.*5 %33
+		d4\fE e fis
+		g e a %35
+		fis h a
+		g8 fis e fis e d
+		a2.
+		d8 e fis e fis g
+		fis4 g gis %40
+		a cis, d
+		a'2 a,4
+		d2 r4\fermata \bar "|." %43 finis
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	r2 <6 5>
+	<7>1
+	<5 3>4 <\t \t> <7 _+> <4+ 2>
+	<6> <6\\> r <6>
+	<6 4> <7 _+>2. %5
+	<6! 4>2 <6! 4 2+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<6> <6 5>4 <_!>8 <6! 5>4 <\t 4>8 <5 _+>
+	<7>2 <_+>8 <6> q4
+	<6 4>2 <7 \t>4 <\t 3>
+	r2.*12 %21
+	r8 <6 4> <6> q <6\\> <6>
+	<6 5>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	r4 <5 3>8 <6> <6\\> <7 _+>
+	<5 3>4 <4+ 2>8 <6> <4+ 2> <7> %25
+	<_+>2.
+	<6\\>
+	r2.*6 %33
+	r4 <7> <6>
+	<4 2>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff %35
+	<6>4 q <6 4>
+	<5 3>8 <6> q q q4
+	r2.
+	r4 <6> q8 <5 3>
+	<6>4 r <6 5> %40
+	r <6 5>2
+	<4>2 <3>4
+	r2. %43 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

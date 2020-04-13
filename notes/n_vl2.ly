@@ -487,3 +487,51 @@ CredoViolinoII = {
 		fis\breve*1/2\fermata \bar "|." %197 finis
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoSanctus
+		a'16.\f a32 a16. a32 h16. h32 h16. h32 h8 h16 r32 <g h>\p q16. q32 q16. q32
+		<g a>16.\f q32 q16. q32 q16. q32 <a e'>16. q32 d8 d16 r32 fis,\p fis16. fis32 fis16. fis32
+		fis16.\mf fis32 fis16. fis32 fis16. fis32 fis16. fis32 e16. e32 e16. e32 gis16. gis32 gis16. gis32
+		e16. e32 e16. e32 e16. e32 e16. e32 a16. e32 e16. e32 h'16. h32 fis16. fis32
+		e16. cis'32 cis16. cis32 h16. h32 h16. h32 a16. a32 a16. a32 g!16. g32 g16. g32 %5
+		f16. f32 f16. f32 f16. f32 f16. f32 e16. e32 e16. e32 e16. e32 e16. e32
+		f16. f32 g16. g32 g16. g32 f16. f32 a16. a32 a16. a32 a16. a32 a16. a32
+		a16.\f a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 g16. g32 \noBreak
+		a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 \bar "||"
+		\time 3/4 \tempoOsanna \newSpacingSection d,8 a' g fis e d \noBreak %10
+		cis h a a h cis
+		d d g d fis d
+		cis d e d e gis
+		a4 a,2
+		h8 a gis gis a h %15
+		cis4 r e
+		d8 e f e f g!
+		a fis' e d cis d
+		a h cis cis h a
+		a4 g8 h fis h %20
+		g a h a h d
+		e cis h a gis fis
+		gis a h h a gis
+		e4 a8 fis fis cis'
+		d cis h cis h a %25
+		h e d cis h a
+		gis fis e e fis gis
+		a cis h a g fis
+		e4. d8 cis h
+		cis4 r r %30
+		R2.*3
+		r8 fis'\f e d cis d
+		a2. %35
+		d8 d g, d' fis, d'
+		d4 a cis8 d
+		cis h a g fis e
+		fis g a g a h
+		a4 h2 %40
+		a8 a e' e d d
+		e e e e e e
+		<d fis>2 r4\fermata \bar "|." %43 finis
+	}
+}

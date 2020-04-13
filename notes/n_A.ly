@@ -955,6 +955,101 @@ CredoAltoLyrics = \lyricmode {
 	a --
 	men. %197 finis
 }
+
+SanctusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr fis4.\fE^\tuttiE fis8 g g r4
+		a4. a8 a a r4
+		d, d8 d e4 e
+		e gis8 gis a4 fis
+		e e e r %5
+		R1
+		a4 g8 f? f a4 g8
+		e4 a8 a a g a g16 g \noBreak
+		d2 e \bar "||"
+		\time 3/4 \tempoOsanna d4 e fis \noBreak %10
+		g g2
+		fis4 h a
+		g8[ fis e fis e d]
+		cis4 r e
+		e2 h'4 %15
+		a2 ais4
+		h8[ a gis a gis e]
+		d4 d2
+		e4( a8[ g!)] fis([ e)]
+		fis4( d) fis %20
+		h8[ a g a g fis]
+		e2.
+		d4 r r
+		R2.*2 %25
+		a4 h cis
+		d d2
+		cis4 a' g!
+		fis8[ e d h' a gis]
+		a4 a r %30
+		d,2.
+		cis4 a e'
+		cis a'8[ g!] fis([ e)]
+		d2.
+		a'2 a4 %35
+		d2 d4
+		d a cis8[ d]
+		cis[ h a g fis e]
+		fis([ g)] a([ g a h)]
+		a4 h2 %40
+		a a4
+		a2( g4)
+		fis2 r4\fermata \bar "|." %43 finis
+	}
+}
+
+SanctusAltoLyrics = \lyricmode {
+	San -- ctus, San -- ctus,
+	San -- ctus, San -- ctus
+	Do -- mi -- nus De -- us,
+	Do -- mi -- nus De -- us
+	Sa -- ba -- oth. %5
+
+	Ple -- ni sunt coe -- li, sunt
+	coe -- li et ter -- ra glo -- ri -- a
+	tu -- a.
+  O -- san -- na %10
+	in ex --
+	cel -- _ _
+	_
+	sis, o --
+	san -- na %15
+	in ex --
+	cel --
+	sis, o --
+	san -- na
+	in __ ex -- %20
+	cel --
+	_
+	sis,
+
+	o -- san -- na %26
+	in ex --
+	cel -- sis, o --
+	san --
+	_ na, %30
+	o --
+	san -- _ _
+	_ _ na,
+	o --
+	san -- na %35
+	in ex --
+	cel -- _ _
+	_
+	sis, o --
+	san -- na
+	in ex --
+	cel --
+	sis.
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

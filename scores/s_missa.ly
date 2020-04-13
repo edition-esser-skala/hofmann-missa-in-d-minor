@@ -11,101 +11,101 @@
 #(set-global-staff-size 15.87)
 
 \book {
-	\bookpart {
-		\header {
-			movement = \movementTitle "1" "K Y R I E"
-		}
-		\paper { indent = 3.5\cm }
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.soloText = \markup { \medium \remark "Cl I" }
-						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I, II" "in B" } }
-						% \transpose c b
-						\partcombine \KyrieClarinettoI \KyrieClarinettoII
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Fagotto I, II"
-						\set Staff.soloText = \markup { \medium \remark "Fag I" }
-						\set Staff.soloIIText = \markup { \medium \remark "Fag II" }
-						\partcombine \KyrieFagottoI \KyrieFagottoII
-					>>
-				>>
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
-						% \transpose c d
-						\partcombine \KyrieTrombaI \KyrieTrombaII
-					>>
-				>>
-				\new Staff \with { \timpStaffDistance } {
-					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in D–A" } }
-					% \transpose c d
-					\KyrieTimpani
-				}
-				\new StaffGroup \with { \stringGroupDistance } <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\KyrieViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\KyrieViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\KyrieViola
-					}
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \KyrieAltoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = \TenoreIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \KyrieBassoLyrics
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violone" "e Organo" } }
-						% \transpose c c,
-						\KyrieOrgano
-					}
-				>>
-				\new FiguredBass {
-					\KyrieBassFigures
-				}
-			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
-		}
-	}
+	% \bookpart {
+	% 	\header {
+	% 		movement = \movementTitle "1" "K Y R I E"
+	% 	}
+	% 	\paper { indent = 3.5\cm }
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.soloText = \markup { \medium \remark "Cl I" }
+	% 					\set Staff.instrumentName = \markup { \center-column { "Clarinetto I, II" "in B" } }
+	% 					% \transpose c b
+	% 					\partcombine \KyrieClarinettoI \KyrieClarinettoII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = "Fagotto I, II"
+	% 					\set Staff.soloText = \markup { \medium \remark "Fag I" }
+	% 					\set Staff.soloIIText = \markup { \medium \remark "Fag II" }
+	% 					\partcombine \KyrieFagottoI \KyrieFagottoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
+	% 					% \transpose c d
+	% 					\partcombine \KyrieTrombaI \KyrieTrombaII
+	% 				>>
+	% 			>>
+	% 			\new Staff \with { \timpStaffDistance } {
+	% 				\set Staff.instrumentName = \markup { \center-column { "Timpani" "in D–A" } }
+	% 				% \transpose c d
+	% 				\KyrieTimpani
+	% 			}
+	% 			\new StaffGroup \with { \stringGroupDistance } <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\KyrieViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\KyrieViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\KyrieViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \SopranoIncipit
+	% 					\override Staff.InstrumentName.self-alignment-Y = ##f
+	% 					\override Staff.InstrumentName.self-alignment-X = #RIGHT
+	% 					\new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \AltoIncipit
+	% 					\override Staff.InstrumentName.self-alignment-Y = ##f
+	% 					\override Staff.InstrumentName.self-alignment-X = #RIGHT
+	% 					\new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \KyrieAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \TenoreIncipit
+	% 					\override Staff.InstrumentName.self-alignment-Y = ##f
+	% 					\override Staff.InstrumentName.self-alignment-X = #RIGHT
+	% 					\new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Basso"
+	% 					\new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \KyrieBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Violone" "e Organo" } }
+	% 					% \transpose c c,
+	% 					\KyrieOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass {
+	% 				\KyrieBassFigures
+	% 			}
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 90 }
+	% 	}
+	% }
 	% \bookpart {
 	% 	\header {
 	% 		movement = \movementTitle "2" "G L O R I A"
@@ -314,4 +314,114 @@
 	% 		\midi { \tempo 4 = 130 } %130 - 60 - 120
 	% 	}
 	% }
+	\bookpart {
+		\header {
+			movement = \movementTitle "4" "S A N C T U S"
+		}
+		\score {
+			<<
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I, II" "in A" } }
+						\set Staff.soloText = \markup { \medium \remark "Cl I" }
+						\set Staff.soloIIText = \markup { \medium \remark "Cl II" }
+						% \transpose c a
+						\partcombine \SanctusClarinettoI \SanctusClarinettoII
+					>>
+					\new Staff <<
+						\set Staff.instrumentName = "Fagotto I, II"
+						\set Staff.soloText = \markup { \medium \remark "Fag I" }
+						\set Staff.soloIIText = \markup { \medium \remark "Fag II" }
+						\partcombine \SanctusFagottoI \SanctusFagottoII
+					>>
+				>>
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in D" } }
+						\set Staff.soloText = \markup { \medium \remark "Cor I" }
+						\set Staff.soloIIText = \markup { \medium \remark "Cor II" }
+						% \transpose c d
+						\partcombine \SanctusCornoI \SanctusCornoII
+					>>
+					\new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
+						\set Staff.soloText = \markup { \medium \remark "Tr I" }
+						\set Staff.soloIIText = \markup { \medium \remark "Tr II" }
+						% \transpose c d
+						\partcombine \SanctusTrombaI \SanctusTrombaII
+					>>
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Trombone I, II"
+							\set Staff.soloText = \markup { \medium \remark "Trb I" }
+							\set Staff.soloIIText = \markup { \medium \remark "Trb II" }
+							\partcombine \SanctusTromboneI \SanctusTromboneII
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Trombone III"
+							\SanctusTromboneIII
+						}
+					>>
+				>>
+				\new Staff \with { \timpStaffDistance } {
+					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in D–A" } }
+					% \transpose c d
+					\SanctusTimpani
+				}
+				\new StaffGroup \with { \stringGroupDistance } <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\SanctusViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\SanctusViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\SanctusViola
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \SanctusSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \SanctusSopranoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \SanctusAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \SanctusAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \SanctusTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \SanctusBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \SanctusBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Violone" "e Organo" } }
+						% \transpose c c,
+						\SanctusOrgano
+					}
+				>>
+				\new FiguredBass {
+					\SanctusBassFigures
+				}
+			>>
+			\layout { }
+			\midi { \tempo 4 = 135 } % 45 - 135
+		}
+	}
 }

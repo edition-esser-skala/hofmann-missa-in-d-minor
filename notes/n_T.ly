@@ -982,6 +982,82 @@ CredoTenoreLyrics = \lyricmode {
 	men. %197 finis
 }
 
+SanctusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr d4.\f^\tuttiE d8 d d r4
+		cis4. g'8 fis fis r4
+		h,4 a8 a gis4 gis
+		a e'8 e e4 fis8([ d)]
+		cis4 d cis r %5
+		f e8 d cis! cis4 cis8
+		a4 a d f8 e
+		cis4 e8 e d a d d16 d \noBreak
+		fis!2( g) \bar "||"
+		\time 3/4 \tempoOsanna fis4 r r \noBreak %10
+		R2.*11 %21
+		a,4 h cis
+		d d2
+		cis4 fis e
+		d8[ cis h cis h a] %25
+		gis?4 e'2
+		d4( gis,) h
+		a h cis
+		d( h) e
+		a,8[ e' d cis h a] %30
+		a4 h8([ a gis e)]
+		a[ g'! fis e d cis]
+		e4 d8[ e] fis([ g)]
+		fis2.
+		e2 e4 %35
+		d2 d4
+		d cis8[ d e fis]
+		g[ fis e d cis a]
+		d4 d2
+		d d4 %40
+		cis( e) d
+		d2( cis4)
+		d2 r4\fermata \bar "|." %43 finis
+	}
+}
+
+SanctusTenoreLyrics = \lyricmode {
+	San -- ctus, San -- ctus,
+	San -- ctus, San -- ctus
+	Do -- mi -- nus De -- us,
+	Do -- mi -- nus De -- us __
+	Sa -- ba -- oth. %5
+	Ple -- ni sunt coe -- li et
+	ter -- ra, ple -- ni sunt
+	coe -- li et ter -- ra glo -- ri -- a
+	tu --
+	a. %10
+
+	O -- san -- na %22
+	in ex --
+	cel -- _ _
+	_ %25
+	sis, o --
+	san -- na,
+	o -- san -- na
+	in __ ex --
+	cel -- %30
+	sis, o --
+	san --
+	_ _ na,
+	o --
+	san -- na %35
+	in ex --
+	cel -- _
+	_
+	sis, o --
+	san -- na %40
+	in __ ex --
+	cel --
+	sis. %43 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

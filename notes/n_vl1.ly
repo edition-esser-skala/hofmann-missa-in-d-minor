@@ -485,6 +485,48 @@ CredoViolinoI = {
 	}
 }
 
+SanctusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoSanctus
+		d'16.\f d32 d16. d32 d16. d32 d16. d32 e8 e16 r32 g\p g16. g32 g16. g32
+		g16.\f a,32 a16. a32 a16. a32 g'16. g32 fis8 fis16 r32 a,\p a16. a32 a16. a32
+		h16.\mf h32 h16. h32 h16. h32 h16. h32 h16. h32 h16. h32 h16. h32 h16. h32
+		e16. e,32 e16. e'32 d16. e,32 e16. d'32 cis16. e,32 e16. cis'32 d16. d32 h16. h32
+		cis16. a'32 a16. cis,32 h16. gis'32 gis16. gis32 a16. a,32 a16. a32 a16. a32 a16. a32 %5
+		a16. a32 a16. a32 a16. a32 a16. a32 g!16. g32 g16. g32 g16. g32 g16. g32
+		a16. a32 a16. a32 a16. a32 a16. a32 e'16. e32 e16. e32 d16. d32 cis!16. cis32
+		g'16.\fE g32 g16. g32 g16. g32 g16. g32 fis!16. fis32 cis16. cis32 d16. d32 h'16. h32 \noBreak
+		a16. d32 d16. d32 d16. d32 d16. d32 d16. d32 d16. d32 cis16. cis32 cis16. cis32 \bar "||"
+		\time 3/4 \tempoOsanna \newSpacingSection <d d,>4 r r \noBreak %10
+		R2.*7 %17
+		r8 a g fis e d
+		cis h a a h cis
+		d d g d fis h, %20
+		e fis g fis g a
+		a a, gis a h cis
+		h cis d d cis h
+		a4 fis8 a fis e'
+		d e fis e fis4 %25
+		gis?2 e4
+		e2.\trill
+		e8 e d cis h a
+		h a gis4 a8 h
+		a4 r r %30
+		R2.*3
+		r8 a'\f g fis e d
+		cis h a a h cis %35
+		d d g d fis d
+		h' a g a g fis
+		e d cis h a g
+		fis4 d'2
+		d8 cis h h e d %40
+		cis cis g' g fis fis
+		e d' d d e, cis'
+		<d d,>2 r4\fermata \bar "|." %43 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

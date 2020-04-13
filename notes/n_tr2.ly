@@ -282,3 +282,31 @@ CredoTrombaII = {
 		\pao c\breve*1/2\fermata \bar "|." %197 finis
 	}
 }
+
+SanctusTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		c8..\fE c32 c4 c8 c r4
+		g8.. g32 g4 c8 c r4
+		R1
+		g4\mfE c8 c g'4 c,
+		d' d8. d16 g,,4 r %5
+		R1
+		r2 g\pp
+		g4\f g8 g c16. c32 g16. g32 c16. c32 c16. c32 \noBreak
+		c2 g \bar "||"
+		\time 3/4 \tempoOsanna \newSpacingSection c4 r r \noBreak %10
+		R2.*23 %33
+		c2.\f
+		g %35
+		c4 c c
+		c2.
+		g2 g4
+		c c2
+		c4 c c %40
+		g g8. g16 c4
+		g g8. g16 g4
+		c2 r4\fermata \bar "|." %43 finis
+	}
+}

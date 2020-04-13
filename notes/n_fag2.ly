@@ -456,3 +456,47 @@ CredoFagottoII = {
 		d\breve*1/2\fermata \bar "|." %197 finis
 	}
 }
+
+SanctusFagottoII = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoSanctus
+		d'4.\f d8 h h r4
+		a4. a8 d, d r4
+		h'\mfE a gis h
+		a e a a8 h
+		a4 h a r %5
+		r2 b4 a8 g
+		f? cis!4 d8 a4 a8 r
+		a'4\f h8 cis d g, a h \noBreak
+		d2 e \bar "||"
+		\time 3/4 \tempoOsanna \newSpacingSection d4 r r \noBreak %10
+		R2.*7 %17
+		d,4 e fis
+		g g2
+		fis4 h a %20
+		g8 fis e fis e d
+		cis4 r e
+		e2 h'4
+		a2 ais4
+		h8 a gis a gis fis %25
+		e2.
+		d4 h2
+		a4 r r
+		R2.
+		a4 h cis %30
+		d h e
+		a, a r
+		R2.
+		d4\fE e fis
+		g e a %35
+		fis h a
+		g8 fis e fis e d
+		cis4 a2
+		d8 e fis e fis g
+		fis4 g gis
+		a cis, d
+		a2.
+		d2 r4\fermata \bar "|."
+	}
+}

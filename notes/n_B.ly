@@ -934,6 +934,90 @@ CredoBassoLyrics = \lyricmode {
 	men. %197 finis
 }
 
+SanctusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr d4.\fE^\tuttiE h8 g g r4
+		a4. a8 d d r4
+		r2 e4 d8 d
+		cis4 h a d
+		e e a, r %5
+		r2 b'4 a8 g
+		f cis!4 d8 a4 a
+		a h8 cis d e fis g16 g \noBreak
+		a2( a,) \bar "||"
+		\time 3/4 \tempoOsanna d4 r r \noBreak %10
+		R2.*7 %17
+		d4 e fis
+		g g2
+		fis4 h a %20
+		g8[ fis e fis e d]
+		cis4 r e
+		e2 h'4
+		a2 ais4
+		h8[ a gis a gis fis] %25
+		e2.
+		d4 h2
+		a4 r r
+		R2.
+		a4 h cis %30
+		d( h) e
+		a, a r
+		R2.
+		d4 e fis
+		g( e) a %35
+		fis h a
+		g8[ fis e fis e d]
+		cis4 a2
+		d8([ e)] fis([ e)] fis([ g)]
+		fis4( g) gis %40
+		a cis, d
+		a2.
+		d2 r4\fermata \bar "|." %43 finis
+	}
+}
+
+SanctusBassoLyrics = \lyricmode {
+	San -- ctus, San -- ctus,
+	San -- ctus, San -- ctus
+	Do -- mi -- nus
+	De -- us, De -- us
+	Sa -- ba -- oth. %5
+	Ple -- ni sunt
+	coe -- li et ter -- ra,
+	ple -- ni sunt coe -- li glo -- ri -- a
+	tu --
+	a. %10
+
+	O -- san -- na %18
+	in ex --
+	cel -- _ _ %20
+	_
+	sis, o --
+	san -- na
+	in ex --
+	cel -- %25
+	_
+	_ _
+	sis,
+
+	o -- san -- na %30
+	in __ ex --
+	cel -- sis,
+
+	o -- san -- na
+	in __ ex -- %35
+	cel -- _ _
+	_
+	_ sis,
+	o -- san -- na
+	in __ ex -- %40
+	cel -- _ _
+	_
+	sis. %43 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

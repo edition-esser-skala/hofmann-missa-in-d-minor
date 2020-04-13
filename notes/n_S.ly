@@ -964,6 +964,98 @@ CredoSopranoLyrics = \lyricmode {
 	men. %197 finis
 }
 
+SanctusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr d'4.\fE^\tuttiE d8 e e r4
+		g4. cis,8 d d r4
+		h h8 h h4 h
+		e d8 d cis4( d8) h
+		a4 gis a r %5
+		R1
+		r2 e'4 d8 cis!
+		g' g4 g8 fis! cis d h16 h \noBreak
+		a4( d2 cis4) \bar "||"
+		\time 3/4 \tempoOsanna d4 r r \noBreak %10
+		R2.*3
+		a4 h cis
+		d d2 %15
+		cis4 fis e
+		d8[ cis h cis h a]
+		fis4 r d'
+		a2 e'4
+		d2 dis4 %20
+		e8[ d cis d cis h]
+		a4 r a
+		e'2 e4
+		e( a8[ g!)] fis([ e)]
+		fis4( d) h %25
+		d8([ cis)] h([ cis d e)]
+		e2.
+		e4 r r
+		e2.
+		cis4 a e' %30
+		fis8[ e d cis h e]
+		a,[ e' d cis h a]
+		g![ g' fis e] d([ cis)]
+		d2.
+		cis2 cis4 %35
+		d( g) fis
+		h8[ a g a g fis]
+		e[ d cis h a g]
+		fis4 d'2
+		d4( h) e %40
+		cis( g') fis
+		e2.
+		d2 r4\fermata \bar "|." %43 finis
+	}
+}
+
+SanctusSopranoLyrics = \lyricmode {
+	San -- ctus, San -- ctus,
+	San -- ctus, San -- ctus
+	Do -- mi -- nus De -- us,
+	Do -- mi -- nus De -- us
+	Sa -- ba -- oth. %5
+
+	Ple -- ni sunt
+	coe -- li et ter -- ra glo -- ri -- a
+	tu --
+	a. %10
+
+	O -- san -- na %14
+	in ex -- %15
+	cel -- _ _
+	_
+	sis, o --
+	san -- na
+	in ex -- %20
+	cel --
+	sis, o --
+	san -- na
+	in __ ex --
+	cel -- sis, %25
+	in ex --
+	cel --
+	sis,
+	o --
+	san -- na, o -- %30
+	san --
+	_
+	_ na,
+	o --
+	san -- na %35
+	in __ ex --
+	cel --
+	_
+	sis, o --
+	san -- na %40
+	in __ ex --
+	cel --
+	sis. %43 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

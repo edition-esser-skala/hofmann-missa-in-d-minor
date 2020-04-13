@@ -453,3 +453,51 @@ CredoClarinettoI = {
 		c\breve*1/2\fermata \bar "|." %197 finis
 	}
 }
+
+SanctusClarinettoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoSanctus
+		f'2\fE g8 g r4
+		b4. b8 a a r4
+		R1
+		g4\mfE f e d
+		c h c r %5
+		R1
+		\pa r2 g'4 f8 e!
+		b'2\fE a!8 e f f \noBreak
+		f2 f4 e \bar "||"
+		\time 3/4 \tempoOsanna \newSpacingSection f4 r r \noBreak %10
+		\pd R2.*3
+		\pa c4 d e
+		f f2 %15
+		e4 a g
+		f8 e d e d c
+		a4 r f'
+		c2 g'4
+		f2 fis4 %20
+		g8 f e f e d
+		c4 r c
+		g'2 g4
+		g c8 b! a g
+		a4 f d %25
+		f8 e d e f g
+		g2.
+		g4 r r
+		g2.
+		e4 c g' %30
+		a8 g f e d g
+		c, g' f e d c
+		b! b' a g f e
+		f2.\fE
+		e %35
+		f4 b a
+		d8 c b c b a
+		g f e d c b
+		a4 f'2
+		f4 d g %40
+		e b' a
+		g2.
+		f2 \pd r4\fermata \bar "|." %43 finis
+	}
+}

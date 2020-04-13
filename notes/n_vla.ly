@@ -486,3 +486,49 @@ CredoViola = {
 		d\breve*1/2\fermata \bar "|." %197 finis
 	}
 }
+
+SanctusViola = {
+	\relative c' {
+		\clef alto
+		\key d \major \time 4/4 \tempoSanctus
+		<d fis>16.\f q32 q16. q32 q16. q32 q16. q32 <d g>8 q16 r32 <d e>32\p q16. q32 q16. q32
+		<cis e>16.\f q32 q16. q32 q16. q32 q16. q32 d8 d16 r32 d\p d16. d32 d16. d32
+		d16.\mf d32 d16. d32 d16. d32 d16. d32 d16. d32 d16. d32 e16. e32 e16. e32
+		e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 fis16. fis32 d16. d32
+		cis16. a'32 a16. a32 e16. e32 e16. e32 <cis e>16. q32 q16. q32 q16. q32 q16. q32 %5
+		d16. d32 d16. d32 d16. d32 d16. d32 cis!16. cis32 cis16. cis32 cis16. cis32 cis16. cis32
+		d16. d32 e16. e32 e16. e32 d16. d32 f16. f32 f16. f32 f16. f32 e16. e32
+		e16.\f cis32 cis16. cis32 d16. d32 e16. e32 d16. d32 g16. g32 d16. d32 d16. d32 \noBreak
+		d16. fis32 fis16. fis32 fis16. fis32 fis16. fis32 g16. g32 g16. g32 g16. g32 g16. g32 \bar "||"
+		\time 3/4 \tempoOsanna \newSpacingSection fis4 r r \noBreak %10
+		R2.*3
+		r8 e d cis h a
+		gis fis e e fis gis %15
+		a a d a cis fis,
+		h cis d cis d e
+		d d cis d e fis
+		e d cis cis d e
+		d4 d fis %20
+		g r r
+		r8 a fis e d cis
+		h a gis gis a h
+		a4 fis' e
+		h8 a gis a gis fis %25
+		e a gis a h cis
+		h a gis gis a h
+		cis4 r r
+		e4. e8 e e
+		e4 r r %30
+		R2.*3
+		r8 d\f cis d e fis
+		e d cis cis d e %35
+		d d d d d d
+		d4 cis8 d e fis
+		g fis e d cis a
+		d4 d2
+		d2. %40
+		a'8 a a a a a
+		a a a a a a
+		<a d,>2 r4\fermata \bar "|." %43 finis
+	}
+}
