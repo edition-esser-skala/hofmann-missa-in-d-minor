@@ -1050,6 +1050,94 @@ SanctusAltoLyrics = \lyricmode {
 	sis.
 }
 
+BenedictusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoBenedictus
+		R1*10 %10
+		\tiny \mvTr a'8.\pE^\soloE a16 a8 g16([ f)] e4. e8
+		f4 g8 f e([ g)] a a
+		b4 a8 a g e f f
+		fis([ d)] g b a8. fis16 g8 g
+		b4 a8 a b8. b16 a8 a %15
+		f4 f8 f b4. a16 g
+		f4 e c r
+		R1*6 %23
+		f4( g8) a b4 f8 f
+		f4 f8 f g g16 g f8 f16 f %25
+		f8 g a r b4. f8
+		a4 a8 a f4 f8 f
+		c4 c8 c c8. b16 b8 b'
+		b4 b8 b b4. a16 g
+		f4 es8.([ f16)] f4 r %30
+		R1*2
+		r4 r8 b f4 f8 f
+		f4 g8 g f4 es
+		d r g2
+		f a
+		f r \noBreak
+		\normalsize R1 \bar "||"
+		\key d \major \time 3/4 \tempoBenedictusOsanna R2. \noBreak
+		r4 r \mvTr g\pE^\tuttiE %40
+		fis8[ e d h' a gis]
+		a4 a r
+		e2.
+		cis4 a e'
+		cis( a'8[ g!)] fis([ e)] %45
+		d2.\fE
+		a'2 a4
+		d2 d4
+		d a cis8[ d]
+		cis[ h a g fis e] %50
+		fis([ g)] a([ g a h)]
+		a4 h2
+		a2 a4
+		a2( g4)
+		fis2 r4\fermata \bar "|." %55 finis
+	}
+}
+
+BenedictusAltoLyrics = \lyricmode {
+	Be -- ne -- di -- ctus, be -- ne -- %11
+	di -- ctus, qui ve -- nit, qui
+	ve -- nit in no -- mi -- ne, qui
+	ve -- nit in no -- mi -- ne, qui
+	ve -- nit in no -- mi -- ne, qui %15
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni.
+
+	Be -- ne -- di -- ctus, qui %24
+	ve -- nit, qui ve -- nit in no -- mi -- ne %25
+	Do -- mi -- ni, be -- ne --
+	di -- ctus, qui ve -- nit, qui
+	ve -- nit in no -- mi -- ne, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, %30
+
+	qui ve -- nit in %33
+	no -- mi -- ne Do -- mi --
+	ni, be -- %35
+	ne -- di --
+	ctus.
+
+	O -- %40
+	san --
+	_ na,
+	o --
+	san -- na, o --
+	san -- na, %45
+	o --
+	san -- na
+	in ex --
+	cel -- _ _
+	_ %50
+	sis, o --
+	san -- na
+	in ex --
+	cel --
+	sis. %55 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

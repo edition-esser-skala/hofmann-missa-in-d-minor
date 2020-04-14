@@ -501,3 +501,57 @@ SanctusClarinettoI = {
 		f2 \pd r4\fermata \bar "|." %43 finis
 	}
 }
+
+BenedictusClarinettoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoBenedictus
+		r8 g'(\p d' c) d4 c8 r
+		r d\f c h c4 r
+		R1*2
+		g4(^\sottoVoce c h d) %5
+		c r r2
+		R1
+		\mvTr g'2~\pE-\dolce g4 a16 g fis? e
+		d4( c h) r
+		R1 %10
+		r2 r8 fis\p a d
+		d4 d8 d d4 d8 h
+		c fis r h, c fis r d
+		d e r e d e r c
+		c fis r d c fis r4 %15
+		\pa g2~ g4 fis16 e d c \pd
+		h4 c h r
+		c2->\mfE r8 g g g
+		g4 r r8 h h h
+		c4^\critnote r d2\f %20
+		d4 e h^\dolce c
+		h\p r r2
+		h-> r
+		R1*2 %25
+		r2 e4^\mezzoVoce c
+		h f' e c
+		h2 c4~ c8 r
+		\pa g'4 gis a g16 f e d \pd
+		c4( h) c r %30
+		h\mfE f' r8 c c c
+		c4 r r8 e e e
+		f4 r h,\pE h
+		c d c h
+		c r f2^\sottoVoce %35
+		e d
+		c h4\fE h \noBreak
+		c r r2 \bar "||"
+		\key f \major \time 3/4 \tempoBenedictusOsanna R2.*7 %45
+		f2.\f
+		e
+		\pa f4 b a
+		d8 c b c b a
+		g f e d c b %50
+		a4 f'2
+		f4 d g
+		e b' a
+		g2.
+		f2 \pd r4\fermata \bar "|." %55 finis
+	}
+}

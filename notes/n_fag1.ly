@@ -499,3 +499,60 @@ SanctusFagottoI = {
 		d2 \pd r4\fermata \bar "|." %43 finis
 	}
 }
+
+BenedictusFagottoI = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoBenedictus
+		r8 d'(\p es d) c4 d8 r
+		r c(\f d es) d4 r
+		R1*2
+		d4(-\sottoVoce b a a) %5
+		d2\p c
+		b8 a g e? \pao f4 r
+		f' cis d8 f e16 d c b
+		a4 c a r
+		r8 b\mfE a4 g g %10
+		a\pE r b4. a16 g
+		a4 b8 a b4 a8 a
+		e' e r f e e r c
+		c c r b c c r d
+		c e r f e e r4 %15
+		c cis d8 f g16 f e? d
+		c4 c c r
+		c2->\mfE r8 c c cis
+		d4 r r8 d d d
+		\pa d d16 c b a g f \pd g4\f b %20
+		c b c2^\dolce
+		c4\pE r r2
+		es!-> r
+		R1*2 %25
+		r2 d4^\mezzoVoce f
+		es c d2
+		c \once \tieDashed b4~ b8 r
+		\pao b2 es8 g a?16 g f es
+		d4 es d r %30
+		es\mfE c r8 d d d
+		es4 r r8 f f f
+		\pa es g16 f es d c b \pd c4\pE c
+		b c d es
+		d r g2-\sottoVoce %35
+		f es
+		d es4\fE es \noBreak
+		d r r2 \bar "||"
+		\key d \major \time 3/4 \tempoBenedictusOsanna a2.\p \noBreak
+		g %40
+		fis4 r r
+		R2.*4 %45
+		\pa \once \override DynamicText.X-offset = #2 fis'2.\fE
+		e2 e4
+		d2 d4
+		d cis8 d e fis
+		g fis e d cis a %50
+		d4 d2
+		d d4
+		e2 d4
+		d2 cis4
+		d2 \pd r4\fermata \bar "|." %55 finis
+	}
+}

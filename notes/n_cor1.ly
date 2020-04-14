@@ -282,3 +282,22 @@ SanctusCornoI = {
 		c2 r4\fermata \bar "|." %43 finis
 	}
 }
+
+BenedictusCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoBenedictus
+		R1*38 \bar "||" %38
+		\time 3/4 \tempoBenedictusOsanna R2.*7 %45
+		c'2.\f
+		d
+		c
+		c
+		g2 g4 %50
+		c c2
+		c4 c c
+		\pao g d' e
+		d2.
+		c2 r4\fermata \bar "|." %55 finis
+	}
+}

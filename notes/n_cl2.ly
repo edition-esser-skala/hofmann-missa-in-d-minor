@@ -461,3 +461,56 @@ SanctusClarinettoII = {
 		f2 r4\fermata \bar "|." %43 finis
 	}
 }
+
+BenedictusClarinettoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoBenedictus
+		r8 g'\p g g g4 g8 r
+		r a\f g g g4 r
+		R1*2
+		\once \slurDashed g4(_\sottoVoce g f f) %5
+		e r r2
+		R1*2
+		\once \slurDashed g4(\pE fis g) r
+		R1 %10
+		r2 r8 d\p fis a
+		h4 a8 h fis4 g8 g
+		a a r g a a r h
+		h gis r c h gis r a
+		a a r h a a r4 %15
+		g2 c4. h16 a
+		g4 fis g r
+		fis2->\mfE r8 g g g
+		g4 r r8 h h h
+		c4^\critnote r a2\f %20
+		g4 g g-\dolceE fis
+		g\p r r2
+		g-> r
+		R1*2 %25
+		r2 g~-\mezzoVoceE
+		g4 h g g
+		f2 \once \tieDashed e4~ e8 r
+		c'2 c4. h16 a
+		g2 g4 r %30
+		g2\mfE r8 g g gis
+		a4 r r8 a a a
+		a4 r g\pE g
+		g a g2
+		g4 r a2-\sottoVoce %35
+		g g
+		g g4\fE g \noBreak
+		g r r2 \bar "||"
+		\key f \major \time 3/4 \tempoBenedictusOsanna R2.*7 %45
+		a2.\f
+		g
+		f'2 f4
+		f c e8 f
+		e d c b a g %50
+		a b c b c d
+		c4 d2
+		e f4
+		f2 e4
+		f2 r4\fermata \bar "|." %55 finis
+	}
+}

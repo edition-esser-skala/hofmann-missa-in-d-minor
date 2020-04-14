@@ -1044,6 +1044,127 @@ SanctusBassFigures = \figuremode {
 	r2. %43 finis
 }
 
+BenedictusOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoBenedictus
+		r8 \mvTr b'\p-\soloE a b a f b r
+		es,4\f f b f
+		b\pE a8 b a f b d,
+		es4 f b8 e, f f,
+		b4\mf d c f, %5
+		b\p r a r
+		g'8 f e c f f f,4
+		r8 a a a b4 b'
+		c8 r c, r f4\mfE e8 f
+		e c f4 b,8 r c r %10
+		f4.\pE f8 c2
+		f4 e8 f c2~
+		c2. f8 es
+		d2. g8 f!
+		e c f4 c2 %15
+		r8 a a a b4 b'
+		c c, f\mfE a
+		g c, << { r8 a'^\vlcE a a } \\ { f4 r } >>
+		b r r8 fis fis fis
+		g4 r c,\fE^\bassiE b %20
+		a b c-\dolceE c,
+		f8\pE f' e f e c f4
+		f,2-> b4 a8 b
+		f2 b4 a8 b
+		a f b4 es f %25
+		b8 e, f r b,4 d
+		c f, b d
+		r8 f f fis g4~ g8 r
+		r8 d d d es4 es
+		f f, b\mfE d %30
+		c f, << { r8 d'^\vlcE d d } \\ { b4 r } >>
+		es r r8 h'^\bassiE h h
+		c4 r f,\pE es
+		d es f f,
+		b b b b %35
+		b b b b
+		b2 f4\fE f \noBreak
+		b r b2-> \bar "||"
+		\key d \major \time 3/4 \tempoBenedictusOsanna
+			\tieDashed \mvTr a2.~\p-\tuttiE \noBreak
+		a~ %40
+		a~
+		a~
+		a~
+		a~
+		a \tieSolid %45
+		d4\f e fis
+		g e a
+		fis h a
+		g8 fis e fis e d
+		a2. %50
+		d8 e fis e fis g
+		fis4 g gis
+		a cis, d
+		a'2 a,4
+		d2 r4\fermata \bar "|." %55 finis
+	}
+}
+
+BenedictusBassFigures = \figuremode {
+	r4 <6 5> <6>8 <7> r4
+	<6> <6 4>8 <7 3> r4 <7>
+	r <6 5> <6>8 <7> r <6>
+	<6 5>4 <5 3>8 <6 4>16 <7 5> <9 4>8 <7> r4
+	r4 <6> q <7> %5
+	r2 <6>
+	<6!>8 <6> q <7 _!> <9 4>4 <8 3>
+	r8 <6 3> <\t _+>4 <5>4 <6>
+	<6 4> <7 _!> r <6 5>
+	q8 <7 _!> r4 <6 5> <_!> %10
+	r2 <7 _!>4. <6 4>16 <5 _!>
+	r4 <6 5> <5 _!> <6 4>
+	<5 _!> <6 4> <5 _!> r8 <2>
+	<5 _+>4 <6 4> <7 _+> r8 <6- 4 2>
+	<6 5>8 <7 _!>4. <5 _!>4 <6 4> %15
+	r8 <6 3> <\t _+>4 r <6>
+	<6 4> <7 _!> r <6>
+	<6!> <7 _!> r8 <6 3>4 <\t _+>8
+	r2 r8 <6>4 <5>8
+	r2 <_!>4 <4! 2> %20
+	<6> r <6 4> <7 6 _!>8. <\t 5 \t>16
+	r4 <6 5> <6>8 <7 _!>4.
+	<7->2. <6 5>4
+	<7 3 1> \bassFigureExtendersOn <7 4 2>8 <7 5 3> \bassFigureExtendersOff r4 <6 5>4
+	<6>8 <7>4. <6 5>4 <5 3>8 <6 4>16 <7 5> %25
+	<9 4>8 <7> r2 <6>4
+	q <7> r <6>
+	r8 <7>4. \bassFigureExtendersOn q4 \bassFigureExtendersOff <5 3>4
+	r8 <6 3> <\t _+>4 <5>4 <6>
+	<6 4> <7 6>8. <\t 5>16 r4 <6> %30
+	<6> <7> r8 <6 3>4 <\t _+>8
+	r2 r8 <6>4 <5>8
+	r2. <2>4
+	<6> q <6 4> <7 6>8. <\t 5>16
+	r2 <6 4> %35
+	<5 3> <7 4 2>
+	<8 3> <7>
+	r <6\\>
+	<6 4>2.
+	<7> %40
+	<6 4>2 <7+ \t>4
+	<8 3>2.
+	<6 4>2 <7+ \t>4
+	<8 3>2.
+	<7!> %45
+	r4 <7> <6>
+	<4 2>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	<6>4 q <6 4>
+	<5 3>8 <6> q q q4
+	r2. %50
+	r4 <6> q8 <5 3>
+	<6>4 r <6 5>
+	r <6 5>2
+	<4>2 <3>4
+	r2. %55 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

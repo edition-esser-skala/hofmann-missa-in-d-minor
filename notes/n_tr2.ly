@@ -310,3 +310,25 @@ SanctusTrombaII = {
 		c2 r4\fermata \bar "|." %43 finis
 	}
 }
+
+BenedictusTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoBenedictus
+		R1*38 \bar "||" %38
+		\time 3/4 \tempoBenedictusOsanna \tieDashed g2.~\p \noBreak
+		g~ %40
+		g4 r r
+		R2.*4 %45
+		c2.\f
+		g
+		c4 c c
+		c2.
+		g2 g4 %50
+		c c2
+		c4 c c
+		g g8. g16 c4
+		g g8. g16 g4
+		c2 r4\fermata \bar "|." %55 finis
+	}
+}

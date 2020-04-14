@@ -500,3 +500,60 @@ SanctusFagottoII = {
 		d2 r4\fermata \bar "|."
 	}
 }
+
+BenedictusFagottoII = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoBenedictus
+		r8 \once \slurDashed b'(\p a b) a4 b8 r
+		r \once \slurDashed g(\f b c) b4 r
+		R1*2
+		\once \slurDashed b4(-\sottoVoceE f f f) %5
+		b2\p a
+		g8 f e c f4 r
+		R1
+		f4 g f r
+		r8 g\mfE f4 f e %10
+		f\pE r g4. f16 e
+		f4 g8 f g4 f8 f
+		c' c r c c c r a
+		a a r g a a r g
+		e c' r c c c r4 %15
+		a,2 b4 b
+		a' g f r
+		g2->\mfE r8 a a a
+		b4 r r8 fis fis fis
+		g4 r e?\f g %20
+		f f f-\dolce g
+		f r r2
+		c'-> r
+		R1*2 %25
+		r2 b4-\mezzoVoceE d
+		f, f b2
+		f4. fis8 \once \tieDashed g4~ g8 r
+		b2 es,
+		f4 c' b r %30
+		c\mfE a r8 d d d
+		es4 r r8 h h h
+		c4 r f,\pE f
+		f g b c
+		b r es2-\sottoVoce %35
+		d c
+		b c4\fE c \noBreak
+		b r r2 \bar "||"
+		\key d \major \time 3/4 \tempoBenedictusOsanna fis2.\p \noBreak
+		e %40
+		d4 r r
+		R2.*4 %45
+		d4\f e fis
+		g e a
+		fis h a
+		g8 fis e fis e d
+		a2. %50
+		d8 e fis e fis g
+		fis4 g gis
+		a cis, d
+		a2.
+		d2 r4\fermata \bar "|." %55 finis
+	}
+}

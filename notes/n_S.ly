@@ -1056,6 +1056,98 @@ SanctusSopranoLyrics = \lyricmode {
 	sis. %43 finis
 }
 
+BenedictusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoBenedictus
+		R1*2
+		\mvTr b'4(\pE^\solo c8) d f8.([ es16)] d8 b
+		c c16 c c8 d16 es es8 d c r
+		R1*6 %10
+		f8. f16 f8 e16([ d)] c4. c8
+		c4 b8 a g'4 f8 f
+		g4 f8 f c8. b16 a8 a
+		a8.([ c16)] b8 d d8. c16 b8 b
+		g'4 f8 f g8. g16 f8 f %15
+		f4 f8 f f4( e16[ d)] c b
+		a4 \afterGrace g { f16[ g] } f4 r
+		R1*6 %23
+		r2 b4( c8) d
+		f8.([ es16)] d8 b c c16 c c8 d16 es %25
+		es8 \afterGrace d { c16[ d] } c8 r r2
+		r d4( b8) d
+		es4 a,8 a a8.([ b16)] b8 b
+		f'!4 fis8 fis g4( f16[ es)] d c
+		b4 d8.([ c16)] b4 r %30
+		R1*2
+		r4 r8 b a4 a8 a
+		b4 c8 c b4 a
+		b r es2 %35
+		d c
+		b r \noBreak
+		R1 \bar "||"
+		\key d \major \time 3/4 \tempoBenedictusOsanna R2.*2 %40
+		\mvTr d2.\pE^\tutti
+		cis4 a e'
+		fis8[ e d cis h e]
+		a,[ e' d cis h a]
+		g![ g' fis e] d([ cis)] %45
+		d2.\fE
+		cis2 cis4
+		d( g) fis
+		h8[ a g a g fis]
+		e[ d cis h a g] %50
+		fis4 d'2
+		d4( h) e
+		cis( g') fis
+		e2.
+		d2 r4\fermata \bar "|." %55 finis
+	}
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+	Be -- ne -- di -- ctus, qui %3
+	ve -- nit in no -- mi -- ne Do -- mi -- ni.
+
+	Be -- ne -- di -- ctus, be -- ne -- %11
+	di -- ctus, qui ve -- nit, qui
+	ve -- nit in no -- mi -- ne, qui
+	ve -- nit in no -- mi -- ne, qui
+	ve -- nit in no -- mi -- ne, qui %15
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni.
+
+	Be -- ne -- %24
+	di -- ctus, qui ve -- nit in no -- mi -- ne %25
+	Do -- mi -- ni,
+	be -- ne --
+	di -- ctus, qui ve -- nit, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, %30
+
+	qui ve -- nit in %33
+	no -- mi -- ne Do -- mi --
+	ni, be -- %35
+	ne -- di --
+	ctus.
+
+	O -- %41
+	san -- na, o --
+	san --
+	_
+	_ na, %45
+	o --
+	san -- na
+	in __ ex --
+	cel --
+	_ %50
+	sis, o --
+	san -- na
+	in __ ex --
+	cel --
+	sis. %55 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

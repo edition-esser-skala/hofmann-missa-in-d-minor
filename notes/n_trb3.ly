@@ -217,3 +217,49 @@ SanctusTromboneIII = {
 		d,2 r4\fermata \bar "|." %43 finis
 	}
 }
+
+BenedictusTromboneIII = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoBenedictus
+		R1
+		es4\f f b, r
+		R1*2
+		b4-\sottoVoce d c f,
+		b r r2
+		R1*5 %11
+		r2 r8 e\pE f f
+		r e f f r e f es
+		d d g g r d g f!
+		e c f f r c f f %15
+		r a, a a b4 r
+		c c, f r
+		R1*2
+		r2 c'4\f b %20
+		a b c-\dolceE c,
+		f\pE r r2
+		f-> r
+		R1*3 %26
+		r2 b4\pE d
+		f f,8 fis \once \tieDashed g4~ g8 r
+		R1
+		r2 b4-\sottoVoceE d %30
+		f2 r
+		R1
+		r2 f4\pE es
+		d es f f,
+		b r r2 %35
+		R1*3 \bar "||"
+		\key d \major \time 3/4 \tempoBenedictusOsanna R2.*7 %45
+		d4\f e fis
+		g e a
+		fis h a
+		g8 fis e fis e d
+		a2. %50
+		d,8 e fis e fis g
+		fis4 g gis
+		a cis d
+		a2 a4
+		d,2 r4\fermata \bar "|." %55 finis
+	}
+}

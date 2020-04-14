@@ -535,3 +535,65 @@ SanctusViolinoII = {
 		<d fis>2 r4\fermata \bar "|." %43 finis
 	}
 }
+
+BenedictusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoBenedictus
+		r8 \mvTr f\pE-\dolceE f f c'4 b8 r
+		r c\f d es, d16 d es d c c d c
+		b4\p f'8 f c'4 b8 b
+		b4 a8 b16 c c8 b a r
+		b,16\mf d f f r f g f c es f f r f g f %5
+		r8 f\p b d r f, a c
+		b a b g g8. f16 f8 f
+		r f f f f4 r8 f
+		f4 e8 g f8.\mfE a16 b8 a
+		b4-> a8 r r f r e %10
+		r8 c\pE f a g2
+		a4 b8 a b,16 c e c a c f c
+		b c e c a c f c b c e c a c f c
+		a c d c g b d b a c d c g b des b
+		b c e c a c f c b c e c a c f c %15
+		r8 f f f b4. g16 f
+		f a a a g8 b, a16\mf c c c r c d c
+		g b c c r c d c r8 f f f
+		f4 r r8 a a a
+		g4 r c8\f c4 c8 %20
+		f, f4 f8 a,16-\dolce c f c b c e c
+		c4\p c8 c g'4 f
+		f2-> f4 f8 f
+		f8. f16 g8 a b4 f8 f
+		c'4 b g f %25
+		f8 g a r b,16 d f f r f g f
+		c es f f r f g f f4 d8 f
+		r a a a a8. b16 b8 r
+		r b b b b 4. a16 g
+		f b, d f es f es f b,\mfE d f f r f g f %30
+		c es f f r f g f r8 b b b
+		b b16 a g f! es d d8 g-\critnote g g
+		g4 r c8\pE c4 c8
+		b4 g d16 f b f es-\critnote f a f
+		b d, f f b, d f f b, es g g b, es g g %35
+		b, d f f b, d f f a, c es es a, c es es
+		d2 f4\fE f \noBreak
+		f r f2-> \bar "||"
+		\key d \major \time 3/4 \tempoBenedictusOsanna fis2.\p \noBreak
+		g %40
+		fis2 d4
+		cis2.
+		fis2 e4
+		g!2.~
+		g %45
+		r8 fis'\f e d cis d
+		a2.
+		d8 d g, d' fis, d'
+		d4 a cis8 d
+		cis h a g fis e %50
+		fis g a g a h
+		a4 h2
+		a8 a e' e d d
+		e e e e e e
+		<d fis>2 r4\fermata \bar "|." %55 finis
+	}
+}

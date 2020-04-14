@@ -527,6 +527,68 @@ SanctusViolinoI = {
 	}
 }
 
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoBenedictus
+		\mvTr b'4\pE-\dolce c8 d f8. es16 d8 r
+		r g\f f a, b16 f g f es es f es
+		d8\p b' c d f8. es16 d8 b
+		c4 c8 d16 es es8 d c r
+		r4 r16 f\mf g f \once \tieDashed a,4~ a16 f' g f %5
+		r8 b,\p d f r a, c f
+		e f g b, b8. a16 a f a c
+		\once \tieDashed f2~ f8 e16 f g f e d
+		c f, a c b g b e f8.\mfE c16 c8 c
+		g'4-\parenthesize-> f8 r r g, r g %10
+		\once \tieDashed f'4~\pE f8 e16 d d c c4 c8
+		c4 c8 c g'4 f
+		g f c8. b16 a8 a
+		d4 d8 d d4 d8 b
+		g'8. e16 f4 g8. e16 f4 %15
+		\once \tieDashed f2~ f4 e16 d c b
+		a f' f f b, e e e f4\mf r16 c d c
+		\once \tieDashed e,4~ e16 c' d c c4. cis8
+		d b'16 a g f e? d d4. c8
+		b d16 c b a g f e8\f e'4 e8 %20
+		f16 a, c f d f d b f4-\dolceE a8. g16
+		f4\pE g8 a c8. b16 a8 f
+		a2-\parenthesize-> b4 c8 d
+		es!4 f8 es d4 c8 d
+		f8. es16 d b a b \once \tieDashed c4~ c8 d16 es %25
+		es8. d16 c4 r r16 f g f
+		\once \tieDashed a,4~ a16 f' g f d4 b8 d
+		es4. es8 es8. d16 d8 r
+		f!4 fis g f16 es d c
+		b4 d8. c16 b4\mfE r16 f' g f %30
+		\once \tieDashed a,4~ a16 f' g f f4. fis8
+		g8 b16 a g f es d d4 g8. f16
+		es8 g16 f es d c b a8\pE f'4 f8
+		f16 b, d f c g' es c b4 d8. c16
+		b4 r es2 %35
+		d c
+		b c4\fE c \noBreak
+		b r gis2-\parenthesize-> \bar "||"
+		\key d \major \time 3/4 \tempoBenedictusOsanna \tieDashed a2.~\p \noBreak
+		a~
+		a2 gis4
+		a2.~
+		a2 h4
+		a2.~
+		a \tieSolid
+		r8 a'\f g fis e d
+		cis h a a h cis
+		d d g d fis d
+		h' a g a g fis
+		e d cis h a g
+		fis4 d'2
+		d8 cis h a e' d
+		cis cis g' g fis fis
+		e d' d d e, cis'
+		<d d,>2 r4\fermata \bar "|."
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

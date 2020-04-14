@@ -230,3 +230,49 @@ SanctusTromboneII = {
 		d2 r4\fermata \bar "|." %43 finis
 	}
 }
+
+BenedictusTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \tempoBenedictus
+		R1
+		c4\f b8 a b4 r
+		R1*2
+		b4-\sottoVoce b a c %5
+		d r r2
+		R1*5 %11
+		r2 r8 b\pE a a
+		r b a a r b a a
+		a c b b r c b b
+		r b a a r b a a %15
+		r f f f f4 r
+		a g a r
+		R1*2
+		r2 g4\f g %20
+		f f a-\dolceE b
+		a\pE r r2
+		f-> r
+		R1*3 %26
+		r2 b4\pE f
+		a2 \once \tieDashed b4~ b8 r
+		R1
+		r2 b4-\sottoVoce b %30
+		a2 r
+		R1
+		r2 a4\pE a
+		b c b a
+		b r r2 %35
+		R1*3 \bar "||"
+		\key d \major \time 3/4 \tempoBenedictusOsanna R2.*7 %45
+		a2.\f
+		a2 r4
+		a d2
+		d4 cis8 d e fis
+		a,2. %50
+		fis8 g a g a h
+		d4 d2
+		a4 g fis
+		e2.
+		d2 r4\fermata \bar "|." %55 finis
+	}
+}

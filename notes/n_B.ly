@@ -1018,6 +1018,94 @@ SanctusBassoLyrics = \lyricmode {
 	sis. %43 finis
 }
 
+BenedictusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoBenedictus
+		R1*10 %10
+		r2 \mvTr g'8.\pE^\solo g16 g8 f16([ e?)]
+		f4( e8) f e([ c)] f f
+		e([ g)] f f e g f es
+		d([ fis)] g g fis8. a16 g8 f
+		e([ g)] f f e8. g16 f8 f %15
+		a,4 a'8 a b4 b8 b
+		c4 c, f r
+		R1*4 %21
+		f4( g8) a c8.([ b16)] a8 f
+		es'!([ c)] a f b b, r4
+		r2 b4( a8) b
+		a([ f)] b b es es16 es f8 f16 f %25
+		b8 e, f r r2
+		r r4 r8 b
+		f4 f8 fis g8. g16 g8 b
+		d,4 d8 d es4 es8 es
+		f4 f, b r %30
+		R1*2
+		r4 r8 b' f4 es8 es
+		d4 es8 es f4 f,
+		b r b2 %35
+		b b
+		b r \noBreak
+		R1 \bar "||"
+		\key d \major \time 3/4 \tempoBenedictusOsanna R2.*3 %41
+		\mvTr a4\pE^\tutti h cis
+		d( h) e
+		a, a r
+		R2. %45
+		d4(\fE e fis)
+		g( e) a
+		fis( h) a
+		g8[ fis e fis e d]
+		a2. %50
+		d8([ e)] fis([ e fis g)]
+		fis4( g) gis
+		a( cis,) d
+		a2.
+		d2 r4\fermata \bar "|." %55 finis
+	}
+}
+
+BenedictusBassoLyrics = \lyricmode {
+	Be -- ne -- di -- ctus, %11
+	be -- ne -- di -- ctus qui
+	ve -- nit in no -- mi -- ne, qui
+	ve -- nit in no -- mi -- ne, qui
+	ve -- nit in no -- mi -- ne, qui %15
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni.
+
+	Be -- ne -- di -- ctus, qui %22
+	ve -- nit, qui ve -- nit,
+	be -- ne --
+	di -- ctus, qui ve -- nit in no -- mi -- ne %25
+	Do -- mi -- ni,
+	qui
+	ve -- nit in no -- mi -- ne, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, %30
+
+	qui ve -- nit in %33
+	no -- mi -- ne Do -- mi --
+	ni, be -- %35
+	ne -- di --
+	ctus.
+
+	o -- san -- na %42
+	in __ ex --
+	cel -- sis,
+	%45
+	o --
+	san -- na
+	in __ ex --
+	cel --
+	_ %50
+	sis, o --
+	san -- na
+	in __ ex --
+	cel --
+	sis. %55 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

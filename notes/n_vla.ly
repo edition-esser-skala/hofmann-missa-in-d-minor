@@ -532,3 +532,65 @@ SanctusViola = {
 		<a d,>2 r4\fermata \bar "|." %43 finis
 	}
 }
+
+BenedictusViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \tempoBenedictus
+		\mvTr d4\pE-\dolceE es8 d f4 f8 r
+		r g\f f f d r es4->
+		d\pE es8 d f4 f
+		g f b,8 e, f4
+		b16\mf d f f r f g f c es f f r f g f %5
+		r8 f\p f d r f f c
+		g' f e c f f f,4
+		r8 c' cis cis d f e16 d c b
+		a4 b a8\mfE <c f> <c g'> <c f>
+		c4-> c8 r r d r c %10
+		r a\pE c f e2
+		f4 g8 f b,16 c e c a c f c
+		b c e c a c f c b c e c a c f c
+		a c d c g b d b a c d c g b des b
+		b c e c a c f c b c e c a c f c %15
+		r8 c cis cis d f g16 f e? d
+		c4 b8 g f4\mfE a
+		g c r8 c c cis
+		d b'16 a g f e? d r8 d d d
+		d4 r g8\f g4 g8 %20
+		c, c4 d8 f,16-\dolce a c a g b c b
+		a4\p b8 c c4 c
+		<c es!>2-> d4 es8 d
+		a4 b8 c f4 es8 d
+		f4 f b, a8 b16 c %25
+		c8 b a r b16 d f f r f g f
+		c es f f r f g f f,4 d8 f
+		r f' f fis g4~ g8 r
+		r f fis fis g4 a?16 g f es
+		f b, d f es f es f b,\mfE d f f r f g f %30
+		c es f f r f g f r8 f f fis
+		g4 r r8 d d d
+		es4 r <f a>8\pE q4 q8
+		f4 es b16 d f d c es f es
+		d b d d f, b d d g, b es es g, b es es %35
+		f, b d d f, b d d es, f a a es f a a
+		b2 es4\fE es \noBreak
+		d r d2-\parenthesize-> \bar "||"
+		\key d \major \time 3/4 \tempoBenedictusOsanna \tieDashed d2.\p \noBreak
+		cis %40
+		d
+		e
+		d
+		\once \tieDashed cis~
+		cis %45
+		r8 d\fE cis d e fis
+		e d cis cis d e
+		d d d d d d
+		d4 cis8 d e fis
+		g fis e d cis a %50
+		d4 d2
+		d2.
+		a'8 a a a a a
+		a a a a a a
+		<a d,>2 r4\fermata \bar "|." %55 finis
+	}
+}
