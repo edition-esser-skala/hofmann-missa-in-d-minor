@@ -1138,13 +1138,282 @@ BenedictusAltoLyrics = \lyricmode {
 	sis. %55 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+AgnusDeiAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/4 \autoBeamOff \tempoAgnusDei
+		R2.*7 %7
+		r4 \mvTr f\fE^\tuttiE f
+		g2 g4
+		r a a %10
+		a2 a8 a
+		g4 g8 f f f
+		e4 e^\critnote r8 a
+		gis2 gis4
+		a a r %15
+		r f^\sottoVoce f
+		e2 e4
+		r f f
+		e2 e4
+		f2\p f4 %20
+		b2 b4
+		a2\cresc f4
+		f2 as4
+		a4(\f g2)
+		a4 r r %25
+		r g g
+		g2.
+		f4 r f
+		f2 d8 d
+		c4 g' g %30
+		a2 a4
+		g g r
+		R2.
+		e2\pE e4
+		e2 e4 %35
+		e2 e4
+		e2 gis4
+		a2 a4
+		a2( gis4)
+		a r r %40
+		r h\f h
+		h2.
+		a4 r a
+		a2 a8 a
+		a4 a r8 a %45
+		a2 a4
+		gis e r
+		R2.
+		r4 f\p f
+		g2 g4 %50
+		f2 f4
+		e2 e4
+		f2 b4
+		a2( g4)
+		f f\fE f %55
+		g2 g4
+		r a a
+		a2 a8 a
+		g4 g8 f f f
+		e4 e4 r8 a %60
+		gis2 gis4 \noBreak
+		a a r\fermata \bar "||"
+		\key d \major \time 4/4 \tempoDonaNobis \newSpacingSection
+			R1*5 %67
+		d,2( g4) g
+		fis8([ d h')] a gis([ e cis')] h
+		a([ gis)] fis([ h)] e,[ fis16 gis] \once \tieDashed a4~ %70
+		a gis a a8([ ais)]
+		h4 e,8([ d)] cis4 a'8([ g!)]
+		fis2( e)
+		d4 r r e8([ gis)]
+		a([ h cis)] fis, e4 e8 e %75
+		e([ h e d)] cis4 r
+		r2 h(
+		e4) e cis8([ a fis')] e
+		dis([ h e dis)] e4 cis8([ h)]
+		a4 r r2 %80
+		a2( d4) d
+		cis8([ a fis')] e dis([ h g'!)] fis
+		e[ dis cis fis] h,[ cis16 dis] e4~
+		e dis e e8([ eis)]
+		fis4 fis8([ e)] fis4 e %85
+		\once \tieDashed e2~ e8[ h fis' e]
+		e4 r d cis8([ a')]
+		g([ fis e)] d d[( e16 fis] g8[ fis])
+		g4 g2 fis8 fis
+		g4 d g g %90
+		fis8[( d h' a] gis[ e c' h])
+		a4 r r2
+		e( a4) a
+		d,8([ e16 f] g8[ f] e[ f16 g] a8[ gis)]
+		a4 r8 a fis([ g16 a] h8[ a] %95
+		gis[ h a)] gis fis4. ais8
+		h([ e,16 fis)] g8([ fis)] e4( fis8[ e])
+		d4 r cis2(
+		fis4) fis fis8([ d g!)] fis
+		e([ cis d)] e d[ e16 fis] g8[ fis] %100
+		d4 fis g fis8([ g)]
+		d2 g8[ a16 h] cis!8[ h]
+		ais4 r fis2(
+		a4) a gis8([ e a)] gis
+		a4 a gis2 %105
+		a4 r r2
+		R1*2
+		\once \tieDashed a1~
+		a4 g8[ fis] e4 a8[ gis] %110
+		a2 gis4 e
+		e2 e4 r
+		R1
+		r4 cis' h2
+		a fis4. h8 %115
+		h4 h a2
+		g8[ e a g] fis[ d a' gis]
+		\once \tieDashed a4~ a8[ ais] h4 cis,8[ d]
+		e4 a2 gis4
+		a2. h8[ a] %120
+		g4 g fis h
+		h h r2
+		r4 a,( d) d
+		cis8([ a fis')] e d([ h g'!)] fis
+		e[ cis h e] a,[ h16 cis] \once \tieDashed d4~ %125
+		d cis \once \tieDashed d2~
+		d4 e8[ d] cis4 \once \tieDashed d~
+		d cis h2
+		a4 r g'!8[ a16 b] a8[ g]
+		fis[ d g fis] e[ cis fis e] %130
+		d4 cis8[ h] a4 e'
+		d r r \once \tieDashed a'~
+		a gis a r
+		r d,( g) g
+		fis8([ cis! fis e)] d4 \once \tieDashed d~ %135
+		d cis d d
+		a'2 a4 r
+		r2 a4 fis
+		r2 a4 fis
+		r2 a4. a8 %140
+		g4 e a fis
+		h a a g
+		c h r2
+		e, fis
+		a1 %145
+		a\breve*1/2\fermata \bar "|." %146 FINIS
+	}
+}
+
+AgnusDeiAltoLyrics = \lyricmode {
+	A -- gnus %8
+	De -- i,
+	A -- gnus %10
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di, pec --
+	ca -- ta
+	mun -- di: %15
+	Mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re,
+	mi -- se -- %20
+	re -- re,
+	mi -- se --
+	re -- re
+	no --
+	bis. %25
+	A -- gnus
+	De --
+	i, qui
+	tol -- lis pec --
+	ca -- ta, pec -- %30
+	ca -- ta
+	mun -- di:
+
+	Mi -- se --
+	re -- re %35
+	no -- bis,
+	mi -- se --
+	re -- re
+	no --
+	bis. %40
+	A -- gnus
+	De --
+	i, qui
+	tol -- lis pec --
+	ca -- ta, pec -- %45
+	ca -- ta
+	mun -- di:
+
+	Mi -- se --
+	re -- re, %50
+	mi -- se --
+	re -- re
+	no -- bis,
+	no --
+	bis. A -- gnus %55
+	De -- i,
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di, pec -- %60
+	ca -- ta
+	mun -- di: %62 finis
+
+	Do -- na %68
+	no -- bis pa -- cem,
+	do -- na pa -- _ %70
+	_ cem, da
+	no -- bis pa -- cem,
+	pa --
+	cem, da
+	pa -- cem, da no -- bis %75
+	pa -- cem,
+	do --
+	na no -- bis
+	pa -- cem, pa --
+	cem, %80
+	do -- na
+	no -- bis pa -- cem,
+	pa -- _ _
+	_ cem, da
+	no -- bis pa -- cem, %85
+	pa --
+	cem, do -- na
+	no -- bis pa --
+	cem, da no -- bis
+	pa -- cem, do -- na %90
+	pa --
+	cem,
+	do -- na
+	pa --
+	cem, da pa -- %95
+	cem, do -- na
+	no -- bis pa --
+	cem, do --
+	na no -- bis
+	pa -- cem, pa -- _ %100
+	_ _ _ cem,
+	pa -- _ _
+	cem, do --
+	na no -- bis
+	pa -- cem, pa -- %105
+	cem.
+
+	A -- %109
+	_ _ _ %110
+	_ _ men,
+	a -- men.
+
+	A -- _
+	_ _ men, %115
+	a -- men, a --
+	_ _
+	_ _ _
+	men, a -- _
+	_ _ %120
+	_ men, a -- men,
+	a -- men.
+	Do -- na
+	no -- bis pa -- cem,
+	pa -- _ _ %125
+	_ _
+	_ _ _
+	_ _
+	cem, a -- _
+	_ _ %130
+	_ _ _ _
+	men, a --
+	_ men,
+	do -- na
+	pa -- cem, pa -- %135
+	_ cem, da
+	pa -- cem.
+	A -- men,
+	a -- men,
+	do -- na %140
+	no -- _ _ _
+	_ bis pa -- cem,
+	pa -- cem,
+	a -- _
+	_ %145
+	men. %146 FINIS
+}

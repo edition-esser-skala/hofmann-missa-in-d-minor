@@ -188,7 +188,8 @@ pocoF = #(make-dynamic-script (markup #:line (#:normal-text #:small "poco" #:nor
 pocoFE = #(make-dynamic-script (markup #:line (#:normal-text #:small #:italic "poco" #:normal-text #:large #:bold #:italic "f")))
 pocoP = #(make-dynamic-script (markup #:line (#:normal-text #:small "poco" #:normal-text #:large #:bold "p")))
 pocoPE = #(make-dynamic-script (markup #:line (#:normal-text #:small #:italic "poco" #:normal-text #:large #:bold #:italic "p")))
-
+cresc = #(make-music 'CrescendoEvent 'span-direction START 'span-type 'text 'span-text (markup (#:normal-text #:small "cresc.")))
+crescE = #(make-music 'CrescendoEvent 'span-direction START 'span-type 'text 'span-text (markup (#:normal-text #:small #:italic "cresc.")))
 
 violinGroupDistance = {
 	\override StaffGrouper.staffgroup-staff-spacing =
@@ -263,8 +264,8 @@ tempoSanctus = \tempoMarkup "Grave"
 	tempoOsanna = \tempoMarkup "Allegro moderato"
 tempoBenedictus = \tempoMarkup "Andante"
 	tempoBenedictusOsanna = \tempoMarkup "Allegro moderato"
-
-
+tempoAgnusDei = \tempoMarkup "Larghetto"
+	tempoDonaNobis = \tempoMarkup "Allegro"
 
 
 

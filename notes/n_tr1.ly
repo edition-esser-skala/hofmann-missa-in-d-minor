@@ -339,3 +339,81 @@ BenedictusTrombaI = {
 		e2 r4\fermata \bar "|." %55 finis
 	}
 }
+
+AgnusDeiTrombaI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoAgnusDei
+		c'4\f r r
+		c r r
+		g r r
+		g r r
+		c r r %5
+		r c\p c
+		g2.\cresc
+		c4\fE r r
+		c r r
+		g r r %10
+		c r r
+		R2.
+		r4 r8 g\f g g
+		c4 c8. c16 c4
+		g8. g16 g4 r %15
+		R2.*9 %24
+		g4\fE r r %25
+		c r r
+		R2.
+		g4 r r
+		R2.*2 %30
+		c,2.
+		c4 c r
+		R2.*7 %39
+		g'4\f r r %40
+		g r r
+		c r r
+		g r r
+		R2.*4 %47
+		r4 g\p g
+		r c, g
+		r g' g %50
+		r c, g
+		r g' g
+		c r r
+		R2.
+		c4\f r r %55
+		c r r
+		g r r
+		c r r
+		R2.
+		r4 r8 g\f g g %60
+		c4 c8. c16 c4 \noBreak
+		g8. g16 g4 r\fermata \bar "||"
+		\time 4/4 \tempoDonaNobis \newSpacingSection
+			R1*46 %108
+		c2 g4 g
+		c2. g8 c %110
+		g4 r r2
+		g4 c g r
+		R1
+		g2 c
+		\pao g r %115
+		g4 g2 g4
+		g g8. g16 e4 c'8. c16
+		g4 r r2
+		R1*11 %129
+		r4 c g g %130
+		c r r g
+		c c8. c16 g4 g
+		c r r2
+		R1*4 %137
+		r2 c4 c
+		r2 c4 c
+		r2 c4 c %140
+		c r r2
+		r4 r8 g c4 c
+		c c r2
+		g e4 c
+		g' g8. g16 g8 g g g %145
+		e\breve*1/2\fermata \bar "|." %146 FINIS
+	}
+}

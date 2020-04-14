@@ -556,3 +556,138 @@ BenedictusFagottoI = {
 		d2 \pd r4\fermata \bar "|." %55 finis
 	}
 }
+
+AgnusDeiFagottoI = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 3/4 \tempoAgnusDei
+		a'4\f r r
+		b r r
+		a r r
+		a r r
+		g r r %5
+		f2.\p
+		e\cresc
+		d4\fE r r
+		b' r r
+		a r r %10
+		a r r
+		R2.
+		r4 r8 cis\f cis cis
+		f2 \pao d4
+		e a, r %15
+		\pa c!2.~\p
+		c~
+		c16 c( f e d c b a g f e f)
+		e4 r r
+		\pd c'2.\p %20
+		d
+		es\cresc
+		f
+		f2\f e4
+		f r r %25
+		d r r
+		c r r
+		a2 f4
+		g2.~
+		g2 \pao e4 %30
+		c'2 a4
+		h g r
+		R2.*7 %39
+		e'4\f r r %40
+		f r r
+		e r r
+		e r r
+		e2.
+		d %45
+		c
+		e4 \pao e, r
+		g'!2.\p
+		f
+		g %50
+		f
+		g
+		f2 \pao d4
+		d2 \pao cis4
+		d\f r r %55
+		b r r
+		e, r r
+		f r r
+		R2.
+		r4 r8 cis'\f cis cis %60
+		f2 \pao d4 \noBreak
+		e \pao a, r\fermata \bar "||"
+		\key d \major \time 4/4 \tempoDonaNobis \newSpacingSection
+			R1*2
+		\pa r2 a %65
+		d4 d cis8 a fis' e
+		d h g'! fis e cis^\critnote h e
+		a, h16 cis d2 cis4
+		d g,8 fis e4 e'
+		r e8 d cis4 cis %70
+		h4. h8 a4 d8 e
+		fis4 r a,! d8 cis
+		d8. d16 d4 r2
+		a d4 d
+		cis8 h e d d4 cis %75
+		h2 a
+		gis4 gis8 a fis a gis e
+		gis2 a4 r
+		fis8 gis16 a h8 a gis2
+		a8 h16 cis d8 cis h4 e %80
+		e r r2
+		r4 d8 cis h4 e8 dis
+		h4 cis h h8 h
+		h2 h4 a8 gis
+		fis4 h8 cis \once \tieDashed d2~ %85
+		d4 cis h2
+		a4 d8 cis h4 a8 d
+		cis d e fis g4 r
+		g,2 c4 c
+		h8 g e' d cis a fis'! e %90
+		d4 g,8 fis e4 e'8 d
+		cis!8 d16 e f8 e dis h g'! fis
+		e4 r8 gis, a4. a8
+		h4. h8 c4 r8 e
+		c d16 e fis!8 e dis e16 fis g8 fis %95
+		e d c h ais e' d cis
+		h cis16 d e8 d cis ais d cis
+		d4 g8 fis eis4 r
+		fis,2 h4 h
+		cis8 g! fis e d4 r %100
+		a'2 d4 d
+		c8 a d c h c16 d e8 d16 d
+		cis4 h8 ais h fis h4~
+		h8 e, \once \tieDashed a4~ a8 gis e'4
+		e d8 e e2 %105
+		e4 r r2
+		\pd R1*2 \pa
+		r4 fis e2
+		d h4 \once \tieDashed e~ %110
+		e d \once \tieDashed e2~
+		e4 d cis r
+		\pd R1 \pa
+		\once \tieDashed e~
+		e4 d8 cis h4 e8 dis %115
+		e2 cis4^\critnote a
+		a2 a4 r
+		\pd R1*12 \pa %129
+		r2 r4 a~ %130
+		a gis a r8 g'
+		fis d g fis e cis fis e
+		d4 cis8 h a h16 cis d8 c?
+		h c?16 d e8 d h4 \once \tieDashed h~
+		h ais h8 fis' fis fis %135
+		fis4 g a a
+		g4. g8 fis fis g fis
+		e d cis e d2
+		a d8 fis g fis
+		e d cis a d2 %140
+		d4. h8 e4. cis8
+		fis4. e8 d4 d
+		d d r2
+		cis d
+		e1 %145
+		fis\breve*1/2\fermata \bar "|." %146 FINIS
+	}
+}

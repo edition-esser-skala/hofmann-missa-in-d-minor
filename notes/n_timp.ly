@@ -329,3 +329,78 @@ BenedictusTimpani = {
 		c2: r4\fermata \bar "|." %55 finis
 	}
 }
+
+AgnusDeiTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoAgnusDei
+		c4\f r r
+		c r r
+		g r r
+		g r r
+		c r r %5
+		r c\p c
+		g2\cresc g8. g16
+		c4\f r r
+		c r r
+		g r r %10
+		c r r
+		R2.
+		r4 r8 g\f g g
+		c c16 c c8 c c c
+		g8. g16 g4 r %15
+		R2.*9 %24
+		g4\fE r r %25
+		c r r
+		R2.
+		g4 r r
+		R2.*11 %39
+		g4\f r r %40
+		g r r
+		c r r
+		g r r
+		R2.*4 %47
+		r4 g\p g
+		r c g
+		r g g %50
+		r c g
+		r g g
+		c r r
+		R2.
+		c4\f r r %55
+		c r r
+		g r r
+		c r r
+		R2.
+		r4 r8 g\f g g %60
+		c c16 c c8 c c c \noBreak
+		g8. g16 g4 r\fermata \bar "||"
+		\time 4/4 \tempoDonaNobis \newSpacingSection
+		R1*46 %108
+		r4 c8. c16 g4 g
+		c c8. c16 c4 g %110
+		g r r2
+		g4 c8. c16 g4 r
+		R1
+		r4 g8. g16 c4 c
+		g r r2 %115
+		g4 g8. g16 g4 g
+		g8 g16 g g8. g16 c4 c8. c16
+		g4 r r2
+		R1*11 %129
+		r4 c g g8. g16 %130
+		c4 r r g
+		c c8. c16 g4 g
+		c r r2
+		R1*4 %137
+		r2 c4 c
+		r2 c4 c
+		r2 c4 c %140
+		c r r2
+		r4 r8 g c4 c8. c16
+		c4 c r2
+		g4 g8. g16 c4 c
+		g8 g16 g g8 g g g g g %145
+		c\breve*1/2\trill\fermata \bar "|." %146 FINIS
+	}
+}

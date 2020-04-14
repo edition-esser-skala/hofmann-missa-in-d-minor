@@ -594,3 +594,149 @@ BenedictusViola = {
 		<a d,>2 r4\fermata \bar "|." %55 finis
 	}
 }
+
+AgnusDeiViola = {
+	\relative c' {
+		\clef alto
+		\key d \minor \time 3/4 \tempoAgnusDei
+		<f, a>8\f q q q q q
+		<g b> q q q q q
+		<g a> q q q q q
+		<fis a> q q q q q
+		g g g g g g %5
+		r a'\p a a a a
+		a\crescE a a a a a
+		a\fE <f, a> q q q q
+		<g b> q q q q q
+		<g a> q q q q q %10
+		<f a>[ q q q q ] f'\p
+		e4.-> d8 d d
+		cis4.-> <a cis>8\f q q
+		d d4 d d8
+		cis8. a16 a4 r %15
+		<f a>8\p q q q q q
+		<g b> q q q q q
+		<f a> q q q q q
+		<g b>	 q q q q q
+		r f'\pE f f f f %20
+		r <f b> q q q q
+		r <f a>\cresc q q q q
+		r f f f f f
+		f\fE f f f e e
+		f <a, c> q q q q %25
+		<b d> q q q q q
+		<b c> q q q q q
+		<a c> q q q <a d> q
+		<g d'> q q q q q
+		<g c> q q q q q %30
+		d' d d d d d
+		d8. g,16 g4 r
+		<h d>8\pE q q q q q
+		c c c c c c
+		<h d> q q q q q %35
+		<a c> q q q q q
+		<h d> q q q q q
+		<a c> q q q d d
+		e e e e e e
+		<c e> q\f q q q q %40
+		<d f> q q q q q
+		<d e> q q q q q
+		<c e> q q q q q
+		<cis e> q q q q q
+		<d f> q q q q q %45
+		<a dis> q q q q q
+		<gis e'>4 e r
+		<a e'>8\p q q q q q
+		<a d> q q q q q
+		<a e'> q q q q q %50
+		<a d> q q q q q
+		<a e'> q q q q q
+		d d d d g g
+		d d d d cis cis
+		d <f, a>\f q q q q %55
+		<g b> q q q q q
+		<g a> q q q q q
+		<f a>[ q q q q] f'\pE
+		e4.-\parenthesize-> d8 d d
+		cis4.-\parenthesize-> <a cis>8\fE q q %60
+		d d4 d d8 \noBreak
+		e8. a,16 a4 r\fermata \bar "||"
+		\key d \major \time 4/4 \tempoDonaNobis \newSpacingSection
+			R1*2
+		r2 a %65
+		d4 d cis8 a fis' e
+		d h g'! fis e cis h e
+		a, h16 cis d2 cis4
+		d g,8 fis e4 e'
+		r e8 d cis4 cis %70
+		h4. h8 a4 d8 e
+		fis4 r a,! d8 cis
+		d8. d16 d4 r2
+		a d4 d
+		cis8 h e d d4 cis %75
+		h2 a
+		gis4 gis8 a fis a gis e
+		gis2 a4 r
+		fis8 gis16 a h8 a gis2
+		a8 h16 cis d8 cis h4 e %80
+		e r r2
+		r4 d8 cis h4 e8 dis
+		h4 cis h h8 h
+		h2 h4 a8 gis
+		fis4 h8 cis d2~ %85
+		d4 cis h2
+		a4 d8 cis h4 a8 d
+		cis d e fis g4 r
+		g,2 c4 c
+		h8 g e' d cis a fis'! e %90
+		d4 g,8 fis e4 e'8 d
+		cis!8 d16 e f8 e dis h g'! fis
+		e4 r8 gis, a4. a8
+		h4. h8 c?4 r8 e
+		c? d16 e fis!8 e dis e16 fis g8 fis %95
+		e d c h ais e' d cis
+		h cis16 d e8 d cis ais d cis
+		d4 g8 fis eis4 r
+		fis,2 h4 h
+		cis8 g! fis e d4 r %100
+		a'2 d4 d
+		c8 a d c h c16 d e8 d16 d
+		cis4 h8 ais h fis h4~
+		h8 e, a4~ a8 gis e'4~
+		e d8 e e2 %105
+		e8 cis' h a gis fis e d
+		cis4 d8 cis h4 e8 d
+		cis fis e cis d g fis e
+		d4 r r2
+		R1*8 %117
+		r8 a fis' e d h g'! fis
+		e h16 cis d8 cis d e16 fis e8 d
+		e4^\critnote a,2 cis8 d %120
+		e2 d4 f
+		e e r2
+		r4 a,2 gis4
+		a2. h8 a
+		g!4 g2 fis4 %125
+		e2 d4 r
+		r2 a'^\critnote
+		e'4 e d8 h e d
+		cis d16 e fis8 e cis4 cis
+		a r r \once \tieDashed a~ %130
+		a gis a r8 g'
+		fis d g fis e cis fis e
+		d4^\critnote cis8 h a h16 cis d8 c?
+		h c?16 d e8 d h4 \once \tieDashed h~
+		h ais h8 fis' fis fis %135
+		fis4 g a a
+		g2 fis4 r
+		r2 d
+		g8 fis e cis d4 r
+		r2 d4. d8 %140
+		d4. h8 e4. cis8
+		fis4. e8 d4 d
+		d d r2
+		a' a
+		a1 %145
+		<a d,>\breve*1/2\fermata \bar "|." %146 FINIS
+	}
+}

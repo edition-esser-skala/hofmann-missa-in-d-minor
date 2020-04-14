@@ -597,3 +597,150 @@ BenedictusViolinoII = {
 		<d fis>2 r4\fermata \bar "|." %55 finis
 	}
 }
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/4 \tempoAgnusDei
+		d8\f d d d d d
+		<cis e> q q q q q
+		<a e'> q q q q q
+		dis dis dis dis dis dis
+		d d d d d d %5
+		r d'\p d d d d
+		d\crescE d d d cis cis
+		d\f d, d d d d
+		<cis e> q q q q q
+		<a e'> q q q q q %10
+		<a f'>[ q q q q] a'\p
+		g4.-> f8 f f
+		e4.-> <a e'>8\f q q
+		gis gis4 gis gis8
+		a8. a,16 a4 r	%15
+		c!8\p c c c c c
+		c c c c c c
+		c c c c c c
+		c c c c c c
+		r c'\p c c c c %20
+		r d d d d d
+		r a\cresc a a f f
+		f f f f as as
+		a\f a g g g g
+		f f f f f f %25
+		g g g g g g
+		g g g g g g
+		f f f f f f
+		f f f f f f
+		e e e e e e %30
+		c' c c c a a
+		g8. <g g,>16 q4 r
+		e8\p e e e e e
+		e e e e e e
+		e e e e e e %35
+		e e e e e e
+		e e e e e e
+		e e e e f f
+		a a a a gis gis
+		a a\f a a a a %40
+		h h h h h h
+		h h h h h h
+		a a a a a a
+		a a a a a a
+		a a a a a a %45
+		a a a a a a
+		e'4 e, r
+		g!8\p g g g g g
+		f f f f f f
+		g g g g g g %50
+		f f f f f f
+		g g g g g g
+		f f f f b b
+		a a a a g g
+		f d\f d d d d %55
+		<cis e> q q q q q
+		<a e'> q q q q q
+		<a f'>[ q q q f'] a\pE
+		g4.-> f8 f f
+		e4.-\parenthesize-> <a e'>8\f q q %60
+		gis gis4 gis gis8 \noBreak
+		a8. a,16 a4 r\fermata \bar "||"
+		\key d \major \time 4/4 \tempoDonaNobis \newSpacingSection
+			R1*5 %67
+		d2 g4 g
+		fis8 d h' a gis e cis' h
+		a gis fis h e, fis16 gis a4~ %70
+		a gis a a8 ais
+		h4 e,8 d cis4 a'8 g!
+		fis2 e
+		d4 r r e8 gis
+		a h cis fis, e4. e8 %75
+		e h e d cis4 r
+		r2 h
+		e4 e cis8 a fis' e
+		dis h e dis e4 cis8 h
+		a4 r r2 %80
+		a2 d4 d
+		cis8 a fis' e dis h g'! fis
+		e dis cis fis h, cis16 dis e4~
+		e dis e e8 eis
+		fis4 fis8 e fis4 e~ %85
+		e e e8 h fis' e
+		e4 r d cis8 a'
+		g fis e d d e16 fis g8 fis
+		g4 g2 fis8 fis
+		g4 d g g %90
+		fis8 d h' a gis e c' h
+		a4 r r2
+		e a4 a
+		d,8 e16 f g8 f e f16 g a8 gis
+		a4 a fis8 g16 a h8 a %95
+		gis h a gis fis4. ais8
+		h e,16 fis g8 fis e4 fis8 e
+		fis4 r cis2
+		fis4 fis fis8 d g! fis
+		e cis d e d e16 fis g8 fis %100
+		d4 fis g fis8 g
+		d2 g8 a16 h cis!8 h
+		ais4 r fis2
+		a4 a gis8 e a gis
+		a4 a gis2 %105
+		a8 e' d cis h a gis e
+		a4 a8 ais h4 cis8 d
+		\once \tieDashed a2~ a8 h a g
+		fis4 r r2
+		R1*3 %112
+		r8 fis h a gis2
+		a4 r r2
+		R1*2 %116
+		r8 e a g fis d a' gis
+		\once \tieDashed a4~ a8 ais h4 cis,8 d
+		e4 a2 gis4
+		a2. h8 a %120
+		g4 g fis h
+		h h r2
+		r4 a, d d
+		cis8 a fis' e d h g'! fis
+		e cis h e a, h16 cis d4~ %125
+		d cis d2~
+		d4 e8 d cis4 d~
+		d cis h2
+		a4 r g'!8 a16 b a8 g
+		fis d g fis e cis fis e %130
+		d4 cis8 h a4 e'
+		d r r a'~
+		a gis a r
+		r d, g g
+		fis8 cis! fis e d4 d~ %135
+		d cis d d
+		a'2 <d d,>
+		a fis'8 fis e d
+		cis h a g fis4 d
+		a'2 a4 a %140
+		g4 e a fis
+		h a a g
+		c h r2
+		<cis e> <d fis>
+		<e g>1 %145
+		<d fis>\breve*1/2\fermata \bar "|." %146 FINIS
+	}
+}

@@ -276,3 +276,37 @@ BenedictusTromboneII = {
 		d2 r4\fermata \bar "|." %55 finis
 	}
 }
+
+AgnusDeiTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 3/4 \tempoAgnusDei
+		R2.*61 \noBreak %61
+		R2.\fermataMarkup \bar "||"
+		\key d \major \time 4/4 \tempoDonaNobis \newSpacingSection
+		R1*46 %108
+		\once \tieDashed a1~
+		a4 g8 fis e4 e %110
+		e d' \once \tieDashed e2~
+		e4 d cis r
+		R1
+		\once \tieDashed e~
+		e4 d8 cis h4 e8 dis %115
+		e2 cis4 a
+		a2 a4 gis
+		a r r2
+		R1*11 %129
+		a2 a~ %130
+		a4 gis a r
+		a2 e'
+		d4 cis8 h a4 r
+		R1*4 %137
+		r2 a4 a
+		r2 a4 a
+		r2 a4 a %140
+		R1*3
+		cis2 d
+		a1 %145
+		d\breve*1/2\fermata \bar "|." %146 FINIS
+	}
+}

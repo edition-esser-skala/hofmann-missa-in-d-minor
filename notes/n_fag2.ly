@@ -557,3 +557,138 @@ BenedictusFagottoII = {
 		d2 r4\fermata \bar "|." %55 finis
 	}
 }
+
+AgnusDeiFagottoII = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 3/4 \tempoAgnusDei
+		f4\f r r
+		g r r
+		cis, r r
+		fis r r
+		b, r r %5
+		d2.\p
+		d2\crescE cis4
+		d\fE r r
+		g r r
+		cis, r r %10
+		f r r
+		R2.
+		r4 r8 a\f a a
+		b2 d4
+		a a, r %15
+		\once \tieDashed c'!2.~\p
+		c4 r r
+		R2.*2
+		a2.\p %20
+		b
+		c\cresc
+		d2 des4
+		c2.\f
+		f,4 r r %25
+		b r r
+		e, r r
+		f2 d4
+		h2.
+		c2 e4 %30
+		f2 fis4
+		g g, r
+		R2.*7 %39
+		c'4\f r r %40
+		d r r
+		gis, r r
+		a r r
+		g!2.
+		f %45
+		f
+		e4 e r
+		e'2.\p
+		d
+		e %50
+		d
+		e
+		d2 d4
+		a2 cis4
+		a\f r r %55
+		g r r
+		cis, r r
+		d r r
+		R2.
+		r4 r8 a'\f a a %60
+		b2 d4 \noBreak
+		a a r\fermata \bar "||"
+		\key d \major \time 4/4 \tempoDonaNobis \newSpacingSection
+			d,2 g4 g \noBreak
+		fis8 d h' a gis e cis' h
+		a gis fis h e, fis16 gis a4~ %65
+		a gis a d,8 cis
+		h4 e8 d cis4 a'8 g!
+		fis2 e
+		d4 r r e8 d
+		cis4 d e4. e8 %70
+		eis2 fis4 d8 cis
+		h4 r r2
+		d2 g4 g
+		fis8 d h' a gis e cis' h
+		a gis fis h e, fis16 gis a4~ %75
+		a gis2 fis4
+		e d8 cis h4 e
+		gis2 a4 r
+		R1
+		cis,8 d!16 e f8 e dis h d4 %80
+		cis8 a h2 e4
+		a, r r h'8 a
+		gis4 a2 gis4
+		fis2 e4 r
+		R1 %85
+		a,!2 d4 d
+		cis8 a fis' e d h g'! fis
+		e d cis c h4 a
+		g8 a16 h c8 h a4 d
+		g, r r2 %90
+		r e'
+		a4 a fis8 dis h' a
+		gis4 r r2
+		g,! c4 c8 h
+		a h16 c d8 c h4 r %95
+		R1
+		h2 e4 e
+		d8 h e d cis4 r
+		R1
+		a!2 d4 d %100
+		c8 a d c h4 c8 h
+		a4 d8 d e4. e8
+		e cis! fis e d4 r8 d
+		cis4. cis8 h4. h8
+		a4 d8 cis h2 %105
+		a4 r r2
+		R1*2
+		d2 g4 g
+		fis8 d h' a gis e cis' h %110
+		a gis fis h e, fis16 gis \once \tieDashed a4~
+		a gis a r
+		R1
+		r4 a2 gis4
+		a2. h8 a %115
+		g!4 g2 fis4
+		e2 d4 r
+		R1*12 %129
+		d2 g4 g %130
+		fis8 d e d cis h a4
+		r d2 cis4
+		d r r g!~
+		g fis g r
+		fis2 h4 h %135
+		h8 fis a g fis d g fis
+		e a, fis' e d fis' e d
+		cis h a a d2
+		a d8 fis, e d
+		cis h a g fis4 fis' %140
+		g4. gis8 a4. ais8
+		h4. cis8 d4 h
+		fis g r2
+		a fis4 d
+		a1 %145
+		d\breve*1/2\fermata \bar "|." %146 FINIS
+	}
+}

@@ -297,3 +297,90 @@ BenedictusCornoII = {
 		e2 r4\fermata \bar "|." %55 finis
 	}
 }
+
+AgnusDeiCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoAgnusDei
+		c'2.\f
+		d
+		d
+		e,
+		R %5
+		e~\p
+		e\cresc
+		c'4\f r r
+		d r r
+		d r r %10
+		e, r r
+		R2.
+		r4 r8 e\f e e
+		c2.
+		e4 e r %15
+		c'2.\p
+		d
+		c
+		d
+		c\p %20
+		c
+		c\cresc
+		c
+		g\f
+		c,4 r r %25
+		c r r
+		g r r
+		c2.
+		d'
+		d4 r r %30
+		g,2.
+		d'4 d r
+		R2.*7 %39
+		e,4\f r r %40
+		e r r
+		R2.
+		e4 r r
+		R2.*4 %47
+		e2.~\p
+		e~
+		e~ %50
+		e~
+		e~
+		e2 d'4
+		e,2.
+		c'4\f r r %55
+		d r r
+		d r r
+		e, r r
+		R2.
+		r4 r8 e\f e e %60
+		c2. \noBreak
+		e4 e r\fermata \bar "||"
+		\time 4/4 \tempoDonaNobis \newSpacingSection
+		R1*46 %108
+		c'2_\markup { \remark "Cor II in D" } g4 g
+		c2 d4 g,8 c %110
+		g4 r r2
+		g4 d' g, r
+		R1
+		g,2 c
+		g' r %115
+		g4 g2 g4
+		g,2 c4 c
+		g r r2
+		R1*11 %129
+		c'2 g %130
+		e4 r r2
+		c g'
+		c4 r r2
+		R1*4 %137
+		r2 c4 c
+		r2 g4 g
+		r2 c,4 c %140
+		c r r2
+		r4 r8 g' c4 c
+		c, c r2
+		g' c
+		g1 %145
+		e\breve*1/2\fermata \bar "|." %146 FINIS
+	}
+}

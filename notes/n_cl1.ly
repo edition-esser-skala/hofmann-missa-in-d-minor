@@ -555,3 +555,129 @@ BenedictusClarinettoI = {
 		f2 \pd r4\fermata \bar "|." %55 finis
 	}
 }
+
+AgnusDeiClarinettoI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \tempoAgnusDei
+		e'4\f r r
+		dis r r
+		fis r r
+		eis r r
+		e r r %5
+		g,2.\p
+		fis\cresc
+		e4\f r r
+		fis' r r
+		fis r r %10
+		e r r
+		R2.
+		r4 r8 dis\f dis dis
+		e2.
+		dis4 \pao h r %15
+		\partcombineSoloI r16 d(-\dolceE g fis e d c h a g fis g)
+		fis4 r r
+		r16 \once \slurDashed d'( g fis e d c h a g fis g)
+		fis4 r r
+		R2.*5 %24
+		\pd h4\f r r %25
+		c r r
+		c r r
+		h2.
+		a2 e'4
+		fis2. %30
+		e2 d4
+		cis \pao a r
+		R2.*7 %39
+		d4\f r r %40
+		e r r
+		e r r
+		d r r
+		dis2.
+		e %45
+		eis
+		fis4 fis r
+		R2.
+		r16 h,(-\dolce g' fis e) h( c h a g fis e)
+		dis8 r r4 r %50
+		r16 h'( g' fis e) h( c h a g fis e)
+		dis8 r r4 r
+		e'2 fis4
+		g fis2
+		e4\f r r %55
+		fis r r
+		fis r r
+		e r r
+		R2.
+		r4 r8 dis\f dis dis %60
+		e2. \noBreak
+		dis4 dis r\fermata \bar "||"
+		\key f \major \time 4/4 \tempoDonaNobis
+			R1*7 %69
+		\pa r2 c^\markup { \remark "Cl I in A" } %70
+		f4 f e8 c a' g
+		f d b' a g e d g
+		c, d16 e f2 e4
+		f r8 f d h g' g
+		g4 g, g4. g8 %75
+		d'2 g4 g
+		f8 d a' g fis e d g
+		f d g f c d16 e f8 e
+		\once \tieDashed d2~ d8 e16 f! g8 f
+		e d16 c h8 c d4 h8 h %80
+		c4 c2 h4
+		c r r2
+		R1
+		c4 c h8 g e' d
+		cis a f'! e d c h g' %85
+		g, a16 h c2 h4
+		c r r2
+		c f4 f
+		d8 b g' f f4 r8 f
+		f4 es8 d c4 f8 e %90
+		f4 r r h,
+		c8 d16 e! f8 e d e16 fis g8 fis
+		g d \once \tieDashed g4~ g8 es \once \tieDashed as4~
+		as8 f b4 g r
+		r2 d %95
+		g4 g e!8 cis a' g
+		f!4 r a,2
+		d4 d d8 h e d
+		cis d16 e f8 e f4 g8 f
+		e4 r c2 %100
+		f4 f f8 d g f
+		a,4. a8 b4 r
+		R1
+		c!2 f4 f
+		e8 c a' g f d g f %105
+		e4 r r2
+		\pd R1*2 \pa
+		r4 f2 e4
+		f2. g8 f %110
+		e4 f2 e4
+		d2 c4 r
+		\pd R1 \pa
+		c2 f
+		e8 c a' g f d b'! a %115
+		g e d g c, d16 e \once \tieDashed f!4~
+		f e f r
+		\pd R1*12 %129
+		\pa r4 f2 e4 %130
+		f f g8 f16 g f8 e
+		f2 b
+		a8 f g f e d c4
+		b!8 c16 d es4 d8 es16 f g8 f
+		e f16 g f8 e f4 f %135
+		g2 f~
+		f4 e f8 c e f
+		g a b e, \tieDashed c2~
+		c~ c8 c e f
+		g a b e, f f g f %140
+		f d g4~ g8 e a4~
+		a8 f b4 a b
+		c d r2
+		c, f~
+		f e %145
+		f\breve*1/2\fermata \bar "|." %146 FINIS
+	}
+}

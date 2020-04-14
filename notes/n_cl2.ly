@@ -514,3 +514,123 @@ BenedictusClarinettoII = {
 		f2 r4\fermata \bar "|." %55 finis
 	}
 }
+
+AgnusDeiClarinettoII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \tempoAgnusDei
+		g'4\f r r
+		fis r r
+		a r r
+		gis r r
+		a r r %5
+		e2.\p
+		e2\cresc dis4
+		e\f r r
+		a r r
+		a r r %10
+		g r r
+		R2.
+		r4 r8 h\f h h
+		ais2.
+		h4 h r %15
+		R2.*9 %24
+		g4\f r r %25
+		a r r
+		a r r
+		g2.
+		g2 a4
+		d2. %30
+		d2 h4
+		a a r
+		R2.*7 %39
+		fis4\f r r %40
+		g r r
+		fis r r
+		fis r r
+		h2.
+		h %45
+		h
+		ais4 fis r
+		R2.*5 %52
+		g2\pE c4
+		h2 a4
+		g\f r r %55
+		a r r
+		a r r
+		g r r
+		R2.
+		r4 r8 h\f h h %60
+		ais2. \noBreak
+		h4 h r\fermata \bar "||"
+		\key f \major \time 4/4 \tempoDonaNobis
+			R1*5 %67
+		f2^\markup { \remark "Cl II in A" } b4 b
+		a8 f d' c h g e' d
+		c h a d g, a16 h \once \tieDashed c4~ %70
+		c h c c8 cis
+		d4 g,8 f e4 c'8 b
+		a2 g
+		f4 r r g8 h
+		c d e a, g4. g8 %75
+		g d g f e4 r
+		r2 d
+		g4 g e8 c a' g
+		fis d g fis g4 e8 d
+		c4 r r2 %80
+		c f4 f
+		e8 c a' g fis d b' a
+		g fis e a d, e16 fis \once \tieDashed g4~
+		g fis g g8 gis
+		a4 a8 g a4 \once \tieDashed g~ %85
+		g g g8 d a' g
+		g4 r f e8 c'
+		b a g f f g16 a b8 a
+		b4 b2 a4
+		b f b b %90
+		a8 f d' c h g es' d
+		c4 r r2
+		g c4 c
+		f,8 g16 as b8 as g as16 b c8 h
+		c4 r8 c a b16 c d8 c %95
+		h d c h a4. cis8
+		d g,16 a b8 a g4 a8 g
+		a4 r e2
+		a4 a a8 f b a
+		g e f g f g16 a b8 a %100
+		f4 a b a8 b
+		a4 f b8 c16 d e!8 d
+		cis4 r a2
+		c4 c h8 g c h
+		c2 h %105
+		c4 r r2
+		R1*2
+		\once \tieDashed c1~
+		c4 b8 a g4 c8 h %110
+		c2 h4 g
+		g2 g4 r
+		R1
+		r4 e' d2
+		c a4. d8 %115
+		d4 d c2
+		g f4 r
+		R1*12 %129
+		\once \tieDashed c'1~ %130
+		c4 e8 d c4 g
+		f r r \once \tieDashed c'~
+		c h c r
+		r f, b b
+		a8 e! a g f4 f %135
+		a b c c
+		b2 a8 a c c
+		c2 c~
+		\once \tieDashed c~ c8 c c f
+		c2 c %140
+		b4 g c a
+		d c c b
+		es d r2
+		c2 a
+		c1 %145
+		c\breve*1/2\fermata \bar "|." %146 FINIS
+	}
+}

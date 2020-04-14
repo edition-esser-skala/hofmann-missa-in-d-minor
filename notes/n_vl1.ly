@@ -589,9 +589,145 @@ BenedictusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/4 \tempoAgnusDei
+		r4 f\f\prall d\prall
+		e b''\prall g\prall
+		a,, g'\prall e\prall
+		dis a''\prall fis\prall
+		g b,, g %5
+		r8 f''\p f f f f
+		e\crescE e e e e e
+		d4\f f,\prall d\prall
+		e b''\prall g\prall
+		a,, g'\prall e\prall %10
+		d a''\prall f8 \noBeam d\p
+		d4-> cis8 b b b
+		b4-> a8 <a g'>[\f q q]
+		f' f4 e8 d d
+		cis8. a16 <a a,>4 r %15
+		R2.
+		r16 g'(-\dolce b a g f e d c cis d b)
+		a8 r r4 r
+		r16 g'( b a g f e d c cis d b)
+		r8 f'\p f f f f %20
+		r f f f f f
+		r f\crescE f f a, a
+		b b b b h h
+		c\f c c c b b
+		a4 c,-\parenthesize-\prall a\prall %25
+		b d''\prall b\prall
+		c,, b'\prall g\prall
+		a a'\prall f\prall
+		g,, f'\prall d\prall
+		c e'\prall c\prall %30
+		d8 d d d c c
+		h8. g16 g4 r
+		r16 gis'(-\dolce h a gis f! e d c h a gis)
+		a-! a'( c h a e f e d c h a)
+		gis-! \slurDashed gis'( h a gis f! e d c h a gis) %35
+		a-! a'( c h a e f e d c h a)
+		gis-! gis'( h a gis f! e d c h a gis)
+		a-! a'( c h a e f e d e f d) \slurSolid
+		c8 c h h h h
+		c4 c,\prall\f a\prall %40
+		h f''\prall d\prall
+		gis,, h''\prall e,\prall
+		a,, c\prall a\prall
+		a cis''\prall a\prall
+		a,, f'\prall d\prall %45
+		dis c''\prall a\prall
+		gis8. e16 <e e,>4 r
+		r16 g(-\dolce b! a g f e d cis b a g)
+		f4 r r
+		r16 g'( b a g f e d cis b a g) %50
+		f4 r r
+		r16 \once \slurDashed g'( b a g f e d cis b a g)
+		f( f' e d) d( a' g f) f( b g e)
+		f8 f e e e e
+		d4 f,\prall\f d\prall %55
+		e b''\prall g\prall
+		a,, g'\prall e\prall
+		d a'' f8 \noBeam d\pE
+		d4-> cis8 b b b
+		b8.-\parenthesize-> a16 a8 <a g'>[\f q q] %60
+		f' f4 e8 d d \noBreak
+		cis8. a16 <a a,>4 r\fermata \bar "||"
+		\key d \major \time 4/4 \tempoDonaNobis \newSpacingSection
+		R1*7 %69
+		r2 a %70
+		d4 d cis8 a fis' e
+		d h g' fis e cis h e
+		a, h16 cis d2 cis4
+		d4 r8 d h gis e' e
+		e4 e, r2 %75
+		h' e4 e
+		d8 h fis' e dis cis h e
+		d h e d a h16 cis d8 cis
+		\once \tieDashed h2~ h8 cis16 d! e8 d
+		cis h16 a gis8 a h4 gis8 gis %80
+		a4 a2 gis4
+		a r r2
+		r e
+		a4 a gis8 e cis' h
+		ais fis d'! cis h a gis e' %85
+		e, fis16 gis a2 gis4
+		a4 r r2
+		a d4 d
+		h8 g e' d d4 r8 d
+		d4 c8 h a4 d8 cis %90
+		d4 r r gis,
+		a8 h16 cis! d8 cis h cis16 dis e8 dis
+		e h4 e8~ \once \tieDashed e c \once \tieDashed f4~
+		f8 d g4 e r
+		r2 h %95
+		e4 e cis!8 ais fis' e
+		d!4 r fis,2
+		h4 h h8 gis cis h
+		ais h16 cis d8 cis d4 e8 d
+		cis4 r a2 %100
+		d4 d d8 h e d
+		fis,4. fis8 g4 r
+		R1
+		a!2 d4 d
+		cis8 a fis' e d h e d %105
+		cis4 a d2
+		e8 a, fis' e d h g'! fis
+		e d cis g' fis e d cis
+		d4 r r2
+		R1*2 %111
+		r2 r8 a fis' e
+		dis2 e8 h e d
+		cis4 r r2
+		R1*4 %118
+		r4 cis h2
+		a8 h16 cis d8 cis h cis16 d e8 d %120
+		cis a fis' e d h e d
+		d4 d r2
+		R1*2
+		r2 d %125
+		g4 g fis8 d h a
+		gis e cis' h a gis fis h
+		e, fis16 gis a2 gis4
+		a8 h16 cis d8 cis e4 e
+		e d2 cis4 %130
+		d d e8 d16 e d8 cis
+		d4 d g g
+		fis8 d e d cis h a4
+		g!8 a16 h c4 d8 c16 d e8 d
+		cis d16 e d8 cis d d d d %135
+		e4. e8 d4 \once \tieDashed d~
+		d cis d2
+		<a a'> a'8 a g fis
+		e d cis e d2
+		<a a'>2 a'8 d, e d %140
+		d8 h \tieDashed e4~ e8 cis fis4~
+		fis8 d g4 fis g
+		a h r2
+		a d~
+		d cis %145
+		d\breve*1/2\fermata \bar "|." %146 FINIS
+	}
+}
