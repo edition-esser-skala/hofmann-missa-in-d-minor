@@ -105,7 +105,7 @@ KyrieFagottoII = {
 
 GloriaFagottoII = {
 	\relative c {
-		\clef bass
+		\clef "treble_8"
 		\key d \major \time 4/4 \tempoGloria
 		d'2\f r
 		g, r
@@ -290,7 +290,7 @@ GloriaFagottoII = {
 
 CredoFagottoII = {
 	\relative c {
-		\clef bass
+		\clef "treble_8"
 		\key d \major \time 4/4 \tempoCredo
 		d1\f
 		R1*2
@@ -459,7 +459,7 @@ CredoFagottoII = {
 
 SanctusFagottoII = {
 	\relative c {
-		\clef bass
+		\clef "treble_8"
 		\key d \major \time 4/4 \tempoSanctus
 		d'4.\f d8 h h r4
 		a4. a8 d, d r4
@@ -503,7 +503,7 @@ SanctusFagottoII = {
 
 BenedictusFagottoII = {
 	\relative c {
-		\clef bass
+		\clef "treble_8"
 		\key b \major \time 4/4 \tempoBenedictus
 		r8 \once \slurDashed b'(\p a b) a4 b8 r
 		r \once \slurDashed g(\f b c) b4 r
@@ -560,7 +560,7 @@ BenedictusFagottoII = {
 
 AgnusDeiFagottoII = {
 	\relative c {
-		\clef bass
+		\clef "treble_8"
 		\key d \minor \time 3/4 \tempoAgnusDei
 		f4\f r r
 		g r r

@@ -4,6 +4,14 @@
 
 \version "2.18.0"
 
+KyrieTromboneIII = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 3/4 \tempoKyrie
+		R2.*99 \bar "|."
+	}
+}
+
 GloriaTromboneIII = {
 	\relative c {
 		\clef bass

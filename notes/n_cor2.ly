@@ -4,6 +4,15 @@
 
 \version "2.18.0"
 
+KyrieCornoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 3/4 \tempoKyrie
+		R2.*98
+		R2.\fermataMarkup \bar "|."
+	}
+}
+
 GloriaCornoII = {
 	\relative c' {
 		\clef treble

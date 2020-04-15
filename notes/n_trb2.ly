@@ -4,15 +4,12 @@
 
 \version "2.18.0"
 
-TromboneIIIncipit = \markup {
-	"Trombone II" \hspace #-21 \score {
-		\new Staff \with {
-			\remove Time_signature_engraver
-		} {
-			\clef alto s4 \bar empty
-		}
-		\layout { }
-	} \hspace #-2
+KyrieTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 3/4 \tempoKyrie
+		R2.*99 \bar "|."
+	}
 }
 
 GloriaTromboneII = {
