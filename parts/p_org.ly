@@ -54,7 +54,8 @@
 \book {
 	\bookpart {
 		\header {
-			movement = \movementTitle "1" "K Y R I E"
+			number = "1"
+			title = "K Y R I E"
 		}
 		\score {
 			<<
@@ -65,7 +66,8 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2" "G L O R I A"
+			number = "2"
+			title = "G L O R I A"
 		}
 		\score {
 			<<
@@ -76,7 +78,8 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3" "C R E D O"
+			number = "3"
+			title = "C R E D O"
 		}
 		\score {
 			<<
@@ -87,7 +90,8 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4" "S A N C T U S"
+			number = "4"
+			title = "S A N C T U S"
 		}
 		\score {
 			<<
@@ -98,7 +102,8 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "5" "B E N E D I C T U S"
+			number = "5"
+			title = "B E N E D I C T U S"
 		}
 		\score {
 			<<
@@ -109,7 +114,8 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "6" "A G N U S   D E I"
+			number = "6"
+			title = "A G N U S   D E I"
 		}
 		\score {
 			<<

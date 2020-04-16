@@ -76,8 +76,14 @@
 
 	bookTitleMarkup = \markup {
 		\fill-line {
-			\fontsize #3 \fromproperty #'header:movement
-		}
+			\line {
+				\fontsize #3 {
+	 				\with-color #(rgb-color .8313 0 0) { \fromproperty #'header:number }
+	 			 	\hspace #3
+	 			 	\fromproperty #'header:title
+				}
+			}
+ 		}
 	}
 
 	system-separator-markup = \markup {
@@ -97,18 +103,6 @@
 #(define-markup-command (remarkE layout props text) (markup?)
   (interpret-markup layout props
     #{\markup \small \italic #text #}))
-
-movementTitle = #(define-scheme-function
-  (parser location number title)
-  (string? string?)
-  #{
-		 \markup {
-			 \with-color #(rgb-color .8313 0 0) { #number }
-			 \hspace #3
-			 #title
-		 }
-	#}
-)
 %
 %
 

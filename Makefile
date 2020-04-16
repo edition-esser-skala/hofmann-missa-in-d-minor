@@ -6,8 +6,8 @@
 # change the following variables according to your project
 project = Hofmann_Missa_in_d
 zipname = Hofmann_Missa_in_d_Engraving_Files
-notes = vl1 vl2 S A T B org
-parts = vl1 vl2 coro b org
+notes = cl1 cl2 fag1 fag2 cor1 cor2 tr1 tr2 trb1 trb2 trb3 timp vl1 vl2 vla S A T B org
+parts = cl1 cl2 fag1 fag2 ottoni trb123 vl1 vl2 vla coro b org
 movements = missa
 
 
