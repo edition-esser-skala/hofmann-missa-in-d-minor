@@ -430,23 +430,45 @@ tempoAgnusDei = \tempoMarkup "Larghetto"
 	}
 }
 
-\include "notes/n_cl1.ly"
-\include "notes/n_cl2.ly"
-\include "notes/n_fag1.ly"
-\include "notes/n_fag2.ly"
-\include "notes/n_cor1.ly"
-\include "notes/n_cor2.ly"
-\include "notes/n_tr1.ly"
-\include "notes/n_tr2.ly"
-\include "notes/n_trb1.ly"
-\include "notes/n_trb2.ly"
-\include "notes/n_trb3.ly"
-\include "notes/n_timp.ly"
-\include "notes/n_vl1.ly"
-\include "notes/n_vl2.ly"
-\include "notes/n_vla.ly"
-\include "notes/n_S.ly"
-\include "notes/n_A.ly"
-\include "notes/n_T.ly"
-\include "notes/n_B.ly"
-\include "notes/n_org.ly"
+#(define (ly:create-toc-file layout pages)
+  (let* ((label-table (ly:output-def-lookup layout 'label-page-table)))
+    (if (not (null? label-table))
+      (let* ((format-line (lambda (toc-item)
+             (let* ((label (car toc-item))
+                    (text  (caddr toc-item))
+                    (label-page (and (list? label-table)
+                                     (assoc label label-table)))
+                    (page (and label-page (cdr label-page))))
+               (format #f "~a{~a}" text page))))
+             (formatted-toc-items (map format-line (toc-items)))
+             (whole-string (string-join formatted-toc-items "\n"))
+						 (outfilename "lilypond.toc")
+             (outfile (open-output-file outfilename)))
+        (if (output-port? outfile)
+            (display whole-string outfile)
+            (ly:warning (_ "Unable to open output file ~a for the TOC information") outfilename))
+        (close-output-port outfile)))))
+
+tocSection = #(define-music-function (parser location number text) (markup? markup?)
+   (add-toc-item! 'tocItemMarkup (format #f "\\contentsline {section}{\\numberline {~a}~a}" number text )))
+
+\include "notes/cl1.ly"
+\include "notes/cl2.ly"
+\include "notes/fag1.ly"
+\include "notes/fag2.ly"
+\include "notes/cor1.ly"
+\include "notes/cor2.ly"
+\include "notes/tr1.ly"
+\include "notes/tr2.ly"
+\include "notes/trb1.ly"
+\include "notes/trb2.ly"
+\include "notes/trb3.ly"
+\include "notes/timp.ly"
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/vla.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"

@@ -6,7 +6,7 @@
 
 \include "../definitions.ly"
 
-
+\paper { #(define (page-post-process layout pages) (ly:create-toc-file layout pages)) }
 
 #(set-global-staff-size 15.87)
 
@@ -17,6 +17,7 @@
 			title = "K Y R I E"
 		}
 		\paper { indent = 3.5\cm }
+		\tocSection "1" "Kyrie"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -112,6 +113,7 @@
 			number = "2"
 			title = "G L O R I A"
 		}
+		\tocSection "2" "Gloria"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -211,6 +213,7 @@
 			number = "3"
 			title = "C R E D O"
 		}
+		\tocSection "3" "Credo"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -322,6 +325,7 @@
 			number = "4"
 			title = "S A N C T U S"
 		}
+		\tocSection "4" "Sanctus"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -433,6 +437,7 @@
 			number = "5"
 			title = "B E N E D I C T U S"
 		}
+		\tocSection "5" "Benedictus"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -544,6 +549,7 @@
 			number = "6"
 			title = "A G N U S   D E I"
 		}
+		\tocSection "6" "Agnus Dei"
 		\score {
 			<<
 				\new StaffGroup <<

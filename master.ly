@@ -6,10 +6,17 @@
 
 #(ly:set-option 'relative-includes #t)
 
-\include "scores/s_missa.ly"
+\include "scores/full_score.ly"
 
-% \include "parts/p_vl1.ly"
-% \include "parts/p_vl2.ly"
-% \include "parts/p_coro.ly"
-% \include "parts/p_org.ly"
-% \include "parts/p_b.ly"
+% \include "scores/cl1.ly"
+% \include "scores/cl2.ly"
+% \include "scores/fag1.ly"
+% \include "scores/fag2.ly"
+% \include "scores/ottoni.ly"
+% \include "scores/trb123.ly"
+% \include "scores/vl1.ly"
+% \include "scores/vl2.ly"
+% \include "scores/vla.ly"
+% \include "scores/coro.ly"
+% \include "scores/org.ly"
+% \include "scores/b.ly"
