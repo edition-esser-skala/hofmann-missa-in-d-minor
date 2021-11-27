@@ -1,133 +1,83 @@
-% (c) 2020 by Wolfgang Esser-Skala.
-% This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-
-\version "2.18.0"
+\version "2.22.0"
 
 \include "../definitions.ly"
+#(define option-instrument-name "cl 1")
+\include "score_settings/one-staff.ly"
 
-\paper {
-	indent = 2.5\cm
-	top-margin = 1.5\cm
-	system-separator-markup = ##f
-	system-system-spacing =
-    #'((basic-distance . 18)
-       (minimum-distance . 18)
-       (padding . -100)
-       (stretchability . 0))
-
-	top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-	top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-	markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-	systems-per-page = #9
-}
-
-#(set-global-staff-size 17.82)
-
+\paper { indent = 1.5\cm }
 
 \book {
-	\bookpart {
-		\header {
-			number = "1"
-			title = "K Y R I E"
-		}
-		\score {
-			<<
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Clarinetto I" "in B" } }
-					\KyrieClarinettoI
-				}
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "2"
-			title = "G L O R I A"
-		}
-		\tocItem "Gloria"
-		\score {
-			<<
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Clarinetto I" "in A" } }
-					\GloriaClarinettoI
-				}
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "3"
-			title = "C R E D O"
-		}
-		\tocItem "Credo"
-		\score {
-			<<
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Clarinetto I" "in A" } }
-					\CredoClarinettoI
-				}
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "4"
-			title = "S A N C T U S"
-		}
-		\tocItem "Sanctus"
-		\score {
-			<<
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Clarinetto I" "in A" } }
-					\SanctusClarinettoI
-				}
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "5"
-			title = "B E N E D I C T U S"
-		}
-		\tocItem "Benedictus"
-		\score {
-			<<
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Clarinetto I" "in B" } }
-					\BenedictusClarinettoI
-				}
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			number = "6"
-			title = "A G N U S   D E I"
-		}
-		\tocItem "Agnus Dei"
-		\score {
-			<<
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Clarinetto I" "in B" } }
-					\AgnusDeiClarinettoI
-				}
-			>>
-		}
-	}
+  \bookpart {
+    \section "1" "Kyrie"
+    \addTocEntry
+    \paper { indent = 2.5\cm }
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = \transposedName "Clarinetto I" "B" "flat"
+          \KyrieClarinettoI
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Gloria"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = \transposedNameShort "cl 1" "A" ""
+          \GloriaClarinettoI
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Credo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = \transposedNameShort "cl 1" "A" ""
+          \CredoClarinettoI
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Sanctus"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = \transposedNameShort "cl 1" "A" ""
+          \SanctusClarinettoI
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Benedictus"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = \transposedNameShort "cl 1" "B" "flat"
+          \BenedictusClarinettoI
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Agnus Dei"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = \transposedNameShort "cl 1" "B" "flat"
+          \AgnusDeiClarinettoI
+        }
+      >>
+    }
+  }
 }

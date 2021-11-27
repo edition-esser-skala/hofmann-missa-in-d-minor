@@ -1,17 +1,20 @@
 composer: Hofmann, Leopold
-title: Missa in d
-id: (D-B Mus.ms. 10722/5)
+title: Missa in D minor
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 cl, 2 fag, 2 cor (D/F), 2 clno (D), 3 trb, timp (D–A), 2 vl, vla, b, org
+scoring:
+  - S, A, T, B (solo), S, A, T, B (coro), 2 cl (A/\flat B/C), 2 fag,
+  - 2 cor (D/F), 2 clno (D), 3 trb, timp (D–A), 2 vl, vla, b, org
 sources:
-  1:
+  B1:
     siglum: D-B
     shelfmark: Mus.ms. 10722/5
-    type: manuscript copy
     date: ca. 1820
     rism: 452021543
     url: http://resolver.staatsbibliothek-berlin.de/SBB0000346B00000000
-github: hofmann-missa-in-d-minor
+    principal: true
 imslp: Mass_in_D_minor_(Hofmann%2C_Leopold)
-notes:
-
+parts:
+  cl1: Clarinetto I in A/\flat B/C
+  cl2: Clarinetto II in A/\flat B/C
+  cor12: Corno I, II in D/F
+  ottoni: Clarino I, II in D\\Timpani in D–A
