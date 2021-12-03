@@ -1,9 +1,10 @@
-composer: Hofmann, Leopold
-title: Missa in D minor
+composer:
+  last: Hofmann
+  first: Leopold
+title: Missa
 genre: mass
-scoring:
-  - S, A, T, B (solo), S, A, T, B (coro), 2 cl (A/\flat B/C), 2 fag,
-  - 2 cor (D/F), 2 clno (D), 3 trb, timp (D–A), 2 vl, vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 cl (A/\flat B/C), 2 fag,\\2 cor (D/F), 2 clno (D), 3 trb, timp (D–A), 2 vl, vla, b, org
+license: cc-by-nc-sa-4.0
 sources:
   B1:
     siglum: D-B
@@ -11,6 +12,7 @@ sources:
     date: ca. 1820
     rism: 452021543
     url: http://resolver.staatsbibliothek-berlin.de/SBB0000346B00000000
+    license: CC BY-NC-SA 4.0
     principal: true
 imslp: Mass_in_D_minor_(Hofmann%2C_Leopold)
 parts:
